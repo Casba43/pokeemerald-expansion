@@ -96,12 +96,12 @@ Geodude
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_1 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -109,55 +109,55 @@ Poochyena
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_2 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
+Natu
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_3 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_4 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+Natu
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -167,10 +167,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -180,10 +180,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -226,10 +226,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -291,10 +291,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -317,10 +317,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -330,10 +330,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -347,10 +347,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -364,10 +364,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -385,10 +385,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -398,10 +398,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -415,10 +415,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -428,10 +428,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -441,10 +441,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -454,10 +454,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -471,10 +471,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -482,29 +482,29 @@ Carvanha
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_5 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+Natu
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_6 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -525,12 +525,12 @@ Machoke
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MATT ===
-Name: MATT
-Class: Aqua Admin
-Pic: Aqua Admin M
+=== TRAINER_LINDEN ===
+Name: LINDEN
+Class: Choir Admin
+Pic: Psychic M
 Gender: Male
-Music: Aqua
+Music: Choir
 Items: Super Potion
 Double Battle: No
 AI: Basic Trainer
@@ -539,7 +539,7 @@ Mightyena
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Golbat
+Banette
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -556,16 +556,16 @@ Hariyama
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_SHELLY_WEATHER_INSTITUTE ===
-Name: SHELLY
-Class: Aqua Admin
-Pic: Aqua Admin F
+=== TRAINER_LAUREL_WEATHER_INSTITUTE ===
+Name: LAUREL
+Class: Choir Admin
+Pic: Leader Sabrina Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Basic Trainer
 
-Carvanha
+Natu
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -573,16 +573,16 @@ Mightyena
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_SHELLY_SEAFLOOR_CAVERN ===
-Name: SHELLY
-Class: Aqua Admin
-Pic: Aqua Admin F
+=== TRAINER_LAUREL_SEAFLOOR_CAVERN ===
+Name: LAUREL
+Class: Choir Admin
+Pic: Leader Sabrina Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Basic Trainer
 
-Sharpedo
+Xatu
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -590,12 +590,12 @@ Mightyena
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_ARCHIE ===
-Name: ARCHIE
-Class: Aqua Leader
-Pic: Aqua Leader Archie
+=== TRAINER_THORNE ===
+Name: THORNE
+Class: Choir Leader
+Pic: Leader Giovanni Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
@@ -604,11 +604,11 @@ Mightyena
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+Dusknoir
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Sharpedo
+Xatu
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -627,19 +627,19 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAISY ===
 Name: DAISY
-Class: Aroma Lady
-Pic: Aroma Lady
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Female
-Music: Female
+Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 14
+Shuppet
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Roselia
-Level: 14
+Misdreavus
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_1 ===
@@ -1262,70 +1262,75 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_RANDALL ===
 Name: RANDALL
-Class: Cooltrainer
-Pic: Cooltrainer M
+Class: Psychic
+Pic: Psychic M
 Gender: Male
-Music: Cool
+Music: Intense
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
+Shuppet
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
+- Shadow Ball
+- Curse
+- Astonish
+- Screech
 
 === TRAINER_PARKER ===
 Name: PARKER
-Class: Cooltrainer
-Pic: Cooltrainer M
+Class: Psychic
+Pic: Psychic M
 Gender: Male
-Music: Cool
+Music: Intense
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
+Sableye
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
+- Shadow Ball
+- Feint Attack
+- Confuse Ray
+- Fake Out
 
 === TRAINER_GEORGE ===
 Name: GEORGE
-Class: Cooltrainer
-Pic: Cooltrainer M
+Class: Psychic
+Pic: Psychic M
 Gender: Male
-Music: Cool
+Music: Intense
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Slakoth @ Sitrus Berry
+Dusclops @ Sitrus Berry
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
 - Shadow Ball
+- Curse
+- Will-O-Wisp
+- Night Shade
 
 === TRAINER_BERKE ===
 Name: BERKE
-Class: Cooltrainer
-Pic: Cooltrainer M
+Class: Psychic
+Pic: Psychic M
 Gender: Male
-Music: Cool
+Music: Intense
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Vigoroth
+Duskull
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
+- Shadow Ball
+- Will-O-Wisp
+- Night Shade
+- Confuse Ray
 
 === TRAINER_BRAXTON ===
 Name: BRAXTON
@@ -1653,52 +1658,57 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MARY ===
 Name: MARY
-Class: Cooltrainer
-Pic: Cooltrainer F
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Female
-Music: Cool
+Music: Suspicious
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Delcatty
+Misdreavus
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+- Shadow Ball
+- Confuse Ray
+- Astonish
+- Spite
 
 === TRAINER_ALEXIA ===
 Name: ALEXIA
-Class: Cooltrainer
-Pic: Cooltrainer F
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Female
-Music: Cool
+Music: Suspicious
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Wigglytuff
+Shuppet
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
 - Shadow Ball
+- Will-O-Wisp
+- Spite
+- Screech
 
 === TRAINER_JODY ===
 Name: JODY
-Class: Cooltrainer
-Pic: Cooltrainer F
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Female
-Music: Cool
+Music: Suspicious
 Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Zangoose
+Banette
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+- Shadow Ball
+- Shadow Sneak
+- Screech
+- Will-O-Wisp
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -2157,10 +2167,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -2669,10 +2679,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -2843,7 +2853,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+Natu
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3380,12 +3390,12 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
 - Screech
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_7 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -3393,20 +3403,20 @@ Poochyena
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Shuppet
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_8 ===
+=== TRAINER_GRUNT_CHOIR_HIDEOUT_8 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
+Natu
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4942,47 +4952,47 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Attract
 
-=== TRAINER_NORMAN_1 ===
-Name: NORMAN
+=== TRAINER_YEW_1 ===
+Name: YEW
 Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
+Pic: Hex Maniac
+Gender: Female
+Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
+Shuppet
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+- Shadow Sneak
+- Spite
+- Screech
+- Curse
 
-Vigoroth
+Duskull
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+- Astonish
+- Will-O-Wisp
+- Confuse Ray
+- Night Shade
 
-Linoone
+Sableye
 Level: 29
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
-
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
 - Feint Attack
+- Fake Out
+- Confuse Ray
+- Night Shade
+
+Banette @ Sitrus Berry
+Level: 31
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Will-O-Wisp
+- Shadow Sneak
+- Screech
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -4994,37 +5004,37 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer / Risky
 
-Swablu
+Murkrow
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
 - Mirror Move
-- Safeguard
-- Aerial Ace
+- Haze
+- Pursuit
+- Wing Attack
 
-Tropius
+Vullaby
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
+- Nasty Plot
+- Knock Off
+- Wing Attack
+- Flatter
 
-Pelipper
+Corvisquire
 Level: 30
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
+- Hone Claws
+- Pluck
+- Taunt
+- Fury Attack
 
-Skarmory
+Honchkrow
 Level: 31
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
+- Night Slash
 - Aerial Ace
+- Haze
+- Pursuit
 
 Altaria @ Oran Berry
 Level: 33
@@ -7351,7 +7361,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
+Murkrow
 Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7359,7 +7369,7 @@ Skarmory
 Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Tropius
+Vullaby
 Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7402,11 +7412,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
+Murkrow
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Pelipper
+Corvisquire
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9364,17 +9374,17 @@ Seviper
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TABITHA_MOSSDEEP ===
-Name: TABITHA
-Class: Magma Admin
-Pic: Magma Admin
+=== TRAINER_BRACKEN_MOSSDEEP ===
+Name: BRACKEN
+Class: Vigil Admin
+Pic: Leader Koga Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 Multi Party: Half
 
-Camerupt
+Dusclops
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9382,7 +9392,7 @@ Mightyena
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Golbat
+Banette
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9513,7 +9523,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Ralts
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9534,7 +9544,7 @@ Wingull
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Grovyle
+Kirlia
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9555,7 +9565,7 @@ Pelipper
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Grovyle
+Gardevoir
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9568,7 +9578,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Torchic
+Pawniard
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9589,7 +9599,7 @@ Lombre
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Combusken
+Pawniard
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9610,7 +9620,7 @@ Lombre
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Combusken
+Bisharp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9623,7 +9633,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Gastly
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9644,7 +9654,7 @@ Slugma
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Marshtomp
+Gastly
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9665,7 +9675,7 @@ Slugma
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marshtomp
+Haunter
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9678,7 +9688,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Ralts
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9699,7 +9709,7 @@ Slugma
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Grovyle
+Kirlia
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9720,7 +9730,7 @@ Lombre
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Grovyle
+Gardevoir
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9733,7 +9743,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Pawniard
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9754,7 +9764,7 @@ Lombre
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Combusken
+Pawniard
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9775,7 +9785,7 @@ Lombre
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Combusken
+Bisharp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9788,7 +9798,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Gastly
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9809,7 +9819,7 @@ Slugma
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Marshtomp
+Gastly
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9830,7 +9840,7 @@ Slugma
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marshtomp
+Haunter
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -10488,10 +10498,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Class: Team Choir
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -10505,10 +10515,10 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GRUNT_UNUSED ===
 Name: GRUNT
-Class: Team Magma
-Pic: Aqua Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -10522,10 +10532,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -10539,10 +10549,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10674,10 +10684,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10765,10 +10775,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10782,10 +10792,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_4 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10795,10 +10805,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_5 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10808,10 +10818,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10821,10 +10831,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -10858,7 +10868,7 @@ Lotad
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
+Pawniard
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10875,7 +10885,7 @@ Wingull
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
+Ralts
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10911,10 +10921,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
 Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt F
+Class: Team Choir
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Aqua
+Music: Choir
 Double Battle: No
 AI: Check Bad Move
 
@@ -10926,16 +10936,16 @@ Poochyena
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TABITHA_MT_CHIMNEY ===
-Name: TABITHA
-Class: Magma Admin
-Pic: Magma Admin
+=== TRAINER_BRACKEN_MT_CHIMNEY ===
+Name: BRACKEN
+Class: Vigil Admin
+Pic: Leader Koga Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Basic Trainer
 
-Numel
+Duskull
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10943,11 +10953,11 @@ Poochyena
 Level: 20
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Numel
+Duskull
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Zubat
+Shuppet
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10982,7 +10992,7 @@ Slugma
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
+Gastly
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -10999,16 +11009,16 @@ Wingull
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
+Ralts
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_MAXIE_MAGMA_HIDEOUT ===
-Name: MAXIE
-Class: Magma Leader
-Pic: Magma Leader Maxie
-Gender: Male
-Music: Magma
+=== TRAINER_RUE_VIGIL_HIDEOUT ===
+Name: RUE
+Class: Vigil Leader
+Pic: Elite Four Agatha Frlg
+Gender: Female
+Music: Vigil
 Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
@@ -11017,20 +11027,20 @@ Mightyena
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+Dusknoir
 Level: 38
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+Dusclops
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_MAXIE_MT_CHIMNEY ===
-Name: MAXIE
-Class: Magma Leader
-Pic: Magma Leader Maxie
-Gender: Male
-Music: Magma
+=== TRAINER_RUE_MT_CHIMNEY ===
+Name: RUE
+Class: Vigil Leader
+Pic: Elite Four Agatha Frlg
+Gender: Female
+Music: Vigil
 Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
@@ -11039,29 +11049,25 @@ Mightyena
 Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Zubat
+Shuppet
 Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+Dusclops
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_TIANA ===
 Name: TIANA
-Class: Lass
-Pic: Lass
+Class: Psychic
+Pic: Psychic F
 Gender: Female
-Music: Female
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level: 4
+Duskull
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
@@ -11253,19 +11259,19 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RICK ===
 Name: RICK
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 4
+Shuppet
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 4
+Duskull
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYLE ===
@@ -12010,7 +12016,7 @@ Swellow
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Xatu
+Murkrow
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -12269,7 +12275,7 @@ Pelipper
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Grovyle
+Gardevoir
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12294,7 +12300,7 @@ Ludicolo
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Combusken
+Bisharp
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12319,7 +12325,7 @@ Slugma
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Marshtomp
+Haunter
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12344,7 +12350,7 @@ Pelipper
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Grovyle
+Gardevoir
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12369,7 +12375,7 @@ Ludicolo
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Combusken
+Bisharp
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12394,7 +12400,7 @@ Slugma
 Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Marshtomp
+Haunter
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -13062,16 +13068,16 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARCOS ===
 Name: MARCOS
-Class: Guitarist
-Pic: Guitarist
+Class: Psychic
+Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Duskull
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RHETT ===
 Name: RHETT
@@ -13270,25 +13276,25 @@ Electrike
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_1 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_2 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_2 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13296,25 +13302,25 @@ Poochyena
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_3 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_3 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+Duskull
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_4 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_4 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13322,16 +13328,16 @@ Baltoy
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Shuppet
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_5 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13339,16 +13345,16 @@ Baltoy
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Numel
+Duskull
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_6 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13356,25 +13362,25 @@ Mightyena
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_7 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_7 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_8 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_8 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13382,25 +13388,25 @@ Poochyena
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_9 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_9 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_10 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_10 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13408,12 +13414,12 @@ Mightyena
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_11 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_11 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13421,38 +13427,38 @@ Baltoy
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_12 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_12 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+Duskull
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_13 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Vigil
+Pic: Rocket Grunt M Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
+Shuppet
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_14 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13460,25 +13466,25 @@ Mightyena
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_15 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_15 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+Duskull
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_16 ===
+=== TRAINER_GRUNT_VIGIL_HIDEOUT_16 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
+Class: Team Vigil
+Pic: Rocket Grunt F Frlg
 Gender: Female
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
@@ -13486,16 +13492,16 @@ Baltoy
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TABITHA_MAGMA_HIDEOUT ===
-Name: TABITHA
-Class: Magma Admin
-Pic: Magma Admin
+=== TRAINER_BRACKEN_VIGIL_HIDEOUT ===
+Name: BRACKEN
+Class: Vigil Admin
+Pic: Leader Koga Frlg
 Gender: Male
-Music: Magma
+Music: Vigil
 Double Battle: No
 AI: Check Bad Move
 
-Numel
+Duskull
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -13503,11 +13509,11 @@ Mightyena
 Level: 28
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Zubat
+Shuppet
 Level: 30
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Camerupt
+Dusclops
 Level: 33
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -13529,12 +13535,12 @@ Camerupt
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MAXIE_MOSSDEEP ===
-Name: MAXIE
-Class: Magma Leader
-Pic: Magma Leader Maxie
-Gender: Male
-Music: Magma
+=== TRAINER_RUE_MOSSDEEP ===
+Name: RUE
+Class: Vigil Leader
+Pic: Elite Four Agatha Frlg
+Gender: Female
+Music: Vigil
 Double Battle: No
 AI: Basic Trainer
 Multi Party: Half
@@ -13543,11 +13549,11 @@ Mightyena
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Crobat
+Dusknoir
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+Dusclops
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14136,7 +14142,7 @@ Lotad
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
+Pawniard
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14153,7 +14159,7 @@ Torkoal
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
+Gastly
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14957,205 +14963,125 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 - Attract
 
-=== TRAINER_NORMAN_2 ===
-Name: NORMAN
+=== TRAINER_YEW_2 ===
+Name: YEW
 Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
+Pic: Hex Maniac
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Chansey
+Sableye
 Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Spinda
+Dusclops
 Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_NORMAN_3 ===
-Name: NORMAN
+=== TRAINER_YEW_3 ===
+Name: YEW
 Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
+Pic: Hex Maniac
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Chansey
+Sableye
 Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Kangaskhan
+Mismagius
 Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Spinda
+Dusclops
 Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_NORMAN_4 ===
-Name: NORMAN
+=== TRAINER_YEW_4 ===
+Name: YEW
 Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
+Pic: Hex Maniac
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Blissey
+Dusknoir
 Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Kangaskhan
+Sableye
 Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Spinda
+Mismagius
 Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_NORMAN_5 ===
-Name: NORMAN
+=== TRAINER_YEW_5 ===
+Name: YEW
 Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
+Pic: Hex Maniac
+Gender: Female
+Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Blissey
+Dusknoir
 Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Sing
-- Skill Swap
-- Focus Punch
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Kangaskhan
+Sableye
 Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Tauros
+Mismagius
 Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Protect
-- Fire Blast
-- Earthquake
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Spinda
+Drifblim
 Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slaking @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_WINONA_2 ===
 Name: WINONA
@@ -15167,29 +15093,29 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Dratini @ Sitrus Berry
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
-
-Tropius
+Vullaby
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
+- Nasty Plot
+- Knock Off
+- Air Slash
+- Roost
 
-Pelipper
+Honchkrow @ Sitrus Berry
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Aerial Ace
+- Haze
+- Pursuit
+
+Corviknight
 Level: 41
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- Steel Wing
+- Drill Peck
+- Bulk Up
+- Roost
 
 Skarmory
 Level: 43
@@ -15217,7 +15143,7 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Hoothoot
+Noctowl
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
@@ -15225,29 +15151,29 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Tropius
+Vullaby
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
+- Nasty Plot
+- Knock Off
+- Air Slash
+- Roost
 
-Dragonair @ Sitrus Berry
+Honchkrow @ Sitrus Berry
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
+- Night Slash
+- Drill Peck
+- Nasty Plot
+- Pursuit
 
-Pelipper
+Corviknight
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- Steel Wing
+- Drill Peck
+- Bulk Up
+- Roost
 
 Skarmory
 Level: 48
@@ -15283,29 +15209,29 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Tropius
+Mandibuzz
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
+- Foul Play
+- Air Slash
+- Roost
+- Taunt
 
-Dragonair @ Sitrus Berry
+Honchkrow @ Sitrus Berry
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
+- Sucker Punch
+- Drill Peck
+- Nasty Plot
+- Dark Pulse
 
-Pelipper
+Corviknight
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- Steel Wing
+- Drill Peck
+- Bulk Up
+- Roost
 
 Skarmory
 Level: 53
@@ -15341,29 +15267,29 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Tropius
+Mandibuzz
 Level: 54
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
+- Foul Play
+- Air Slash
+- Roost
+- Toxic
 
-Pelipper
+Corviknight
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- Brave Bird
+- Steel Wing
+- Bulk Up
+- Roost
 
-Dragonite @ Sitrus Berry
+Honchkrow @ Sitrus Berry
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Thunderbolt
-- Earthquake
-- Ice Beam
+- Sucker Punch
+- Drill Peck
+- Nasty Plot
+- Dark Pulse
 
 Skarmory
 Level: 58
@@ -15853,7 +15779,7 @@ Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Tropius
+Honchkrow
 Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 

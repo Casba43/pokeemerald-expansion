@@ -184,8 +184,10 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "bound {PLAYER}?\p"
 	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
 	.string "uses FIRE-type POKéMON.\p"
-	.string "Her passion for POKéMON burns stronger\n"
-	.string "and hotter than a volcano.\p"
+	.string "Know why the springs up here never\n"
+	.string "run cold? Same reason.\p"
+	.string "Fire's the oldest ward there is.\n"
+	.string "Nothing cold climbs this mountain.\p"
 	.string "Don't get too close to her--you'll burn!\n"
 	.string "Hose her down with water and then\l"
 	.string "go for it!$"
@@ -273,8 +275,9 @@ LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 	.string "against our LEADER.$"
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
-	.string "See how the flames blaze wildly?\n"
-	.string "They flare in anticipation of my win!$"
+	.string "See how the flames all lean north?\n"
+	.string "They've done that for weeks now.\p"
+	.string "Battling keeps my mind off it!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 	.string "Something didn't go right.$"
@@ -305,12 +308,14 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro:
 	.string "No, wait.\p"
 	.string "I am FLANNERY, and I'm the GYM\n"
 	.string "LEADER here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been LEADER only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string "And keeper of the flame. That part\n"
+	.string "isn't a title. It's a chore.\p"
+	.string "Grandfather fed it sixty years and\n"
+	.string "never once told me why.\p"
+	.string "All he'd say was: it burns so the\n"
+	.string "cold things keep to their own side.\p"
+	.string "It has been burning badly for weeks.\n"
+	.string "So let's you and me be quick!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Oh…\n"
@@ -352,8 +357,12 @@ LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+	.string "Oh! I know! You battle like YEW,\n"
+	.string "the GYM LEADER of PETALBURG.\p"
+	.string "She climbed up here a while back and\n"
+	.string "sat by the flame the whole night.\p"
+	.string "She wouldn't say who it was for.\p"
+	.string "…I think I know now.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
 	.string "LAVARIDGE TOWN POKéMON GYM$"
@@ -366,11 +375,10 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified:
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 	.string "FLANNERY: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!$"
+	.string "The flame burns straight up again,\n"
+	.string "and I know now what it's for.\p"
+	.string "You're what it's for. Let's exchange\n"
+	.string "superhot moves in another battle!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
 	.string "Whew!\n"
@@ -379,19 +387,17 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 	.string "FLANNERY: I lost the match,\n"
 	.string "but I'm completely satisfied.\p"
-	.string "It's not often I get to enjoy a battle\n"
-	.string "this heated.\p"
-	.string "Let's have another one like this\n"
-	.string "again sometime!$"
+	.string "Grandfather fed this fire sixty years\n"
+	.string "and never told a soul why.\p"
+	.string "I know why. I'll keep it lit.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "FLANNERY: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!\p"
+	.string "The flame burns straight up again,\n"
+	.string "and I know now what it's for.\p"
+	.string "You're what it's for. Let's exchange\n"
+	.string "superhot moves in another battle!\p"
 	.string "Oh, wait. Do you only have one POKéMON\n"
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"

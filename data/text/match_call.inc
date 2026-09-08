@@ -2015,8 +2015,8 @@ MatchCall_BattlePyramidText14::
 	.string "See you again!$"
 
 MatchCall_Text_Mom1::
-	.string "MOM: Your father and you…\n"
-	.string "Everyone is captivated by POKéMON.\p"
+	.string "MOM: You are so like him.\n"
+	.string "Captivated by POKéMON, the pair of you.\p"
 	.string "What is the charm of POKéMON?\p"
 	.string "Me?\n"
 	.string "I adore POKéMON that help me with\l"
@@ -2024,11 +2024,9 @@ MatchCall_Text_Mom1::
 
 MatchCall_Text_Mom2::
 	.string "MOM: Hi, {PLAYER}!\n"
-	.string "Your father keeps himself locked\l"
-	.string "away in the PETALBURG GYM.\p"
-	.string "He comes home every so often.\n"
-	.string "But he goes back to the GYM when\l"
-	.string "he's eaten everything he can.\p"
+	.string "YEW called in again this week.\p"
+	.string "She never stays long. She stands in\n"
+	.string "the doorway and asks after you.\p"
 	.string "I'm guessing that losing to you\n"
 	.string "was a big blow to his pride!$"
 
@@ -2165,10 +2163,10 @@ MatchCall_Text_Flannery_PostRematch::
 
 MatchCall_Text_Winona_Preparing::
 	.string "WINONA: Hello, {PLAYER}!\p"
-	.string "Thanks to our battle, I've come\n"
-	.string "to understand my weak points!\p"
-	.string "When I reopen the GYM, I won't go\n"
-	.string "down in defeat again!$"
+	.string "The GYM is shut while I train.\n"
+	.string "I have been reading old reports.\p"
+	.string "Eleven lights. Somebody wrote it\n"
+	.string "down eleven years ago, too.$"
 
 MatchCall_Text_Winona_PreparingPostGame::
 	.string "WINONA: You've done it, {PLAYER}!\p"
@@ -2184,10 +2182,10 @@ MatchCall_Text_Winona_RematchReady::
 
 MatchCall_Text_Winona_PostRematch::
 	.string "WINONA: {PLAYER}…\n"
-	.string "Though I have lost, my wings will\l"
-	.string "never break.\p"
-	.string "Yes, in exactly the same way that\n"
-	.string "you never lost sight of your dream.$"
+	.string "Though I have lost, I will keep\l"
+	.string "my watch over the canopy.\p"
+	.string "Your father has one person left\n"
+	.string "who is still looking. Two, now.$"
 
 MatchCall_Text_TateLiza_Preparing::
 	.string "TATE: Oh! You're…\n"
@@ -2440,7 +2438,7 @@ MatchCall_Text_May13::
 	.string "How's it going?\n"
 	.string "Are you filling your POKéDEX?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient POKéMON out there.\l"
+	.string "sealed POKéMON out there.\l"
 	.string "And there are three of them!\p"
 	.string "I would love to see even one…$"
 
@@ -2533,7 +2531,7 @@ MatchCall_Text_Brendan9::
 	.string "But around JAGGED PASS, I ran into\n"
 	.string "some nasty-looking characters.\p"
 	.string "Those creeps…\n"
-	.string "I think they were TEAM MAGMA.$"
+	.string "I think they were TEAM VIGIL.$"
 
 MatchCall_Text_Brendan10::
 	.string "BRENDAN: Hi, {PLAYER}!\n"
@@ -2567,7 +2565,7 @@ MatchCall_Text_Brendan13::
 	.string "How's it going? Filling up your\n"
 	.string "POKéDEX successfully?\p"
 	.string "I heard a rumor that there are\n"
-	.string "super-ancient POKéMON out there.\l"
+	.string "sealed POKéMON out there.\l"
 	.string "And not just one--three!\p"
 	.string "I'd love to catch even one…$"
 
@@ -2672,7 +2670,7 @@ MatchCall_Text_Scott4::
 	.string "SCOTT: Hi, {PLAYER}{KUN}!\p"
 	.string "I've been hearing about these odd\n"
 	.string "gangs being a nuisance.\p"
-	.string "TEAM MAGMA and TEAM AQUA,\n"
+	.string "TEAM VIGIL and TEAM CHOIR,\n"
 	.string "I think they were.\p"
 	.string "I would think there'd be some\n"
 	.string "skilled TRAINERS among them.\p"
@@ -2709,15 +2707,15 @@ MatchCall_Text_Scott7::
 	.string "SCOTT appears to be out of\n"
 	.string "the POKéNAV's service area…$"
 
-MatchCall_Text_Norman1::
-	.string "DAD: In RUSTBORO, there's a man\n"
+MatchCall_Text_Yew1::
+	.string "YEW: In RUSTBORO, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the CUTTER.\p"
 	.string "If you're in the area, you should\n"
 	.string "pay him a visit.$"
 
-MatchCall_Text_Norman2::
-	.string "DAD: Hm… Little by little, but also\n"
+MatchCall_Text_Yew2::
+	.string "YEW: Hm… Little by little, but also\n"
 	.string "very surely, you're getting\l"
 	.string "tougher, {PLAYER}.\p"
 	.string "The stronger you get, the farther\n"
@@ -2725,52 +2723,52 @@ MatchCall_Text_Norman2::
 	.string "and me…\p"
 	.string "This feeling is hard to explain.$"
 
-MatchCall_Text_Norman3::
-	.string "DAD: I see…\n"
+MatchCall_Text_Yew3::
+	.string "YEW: I see…\n"
 	.string "You've collected four GYM BADGES…\p"
 	.string "There's no avoiding it now.\n"
 	.string "We will battle like I promised.\p"
 	.string "Come anytime.\n"
 	.string "We'll all be waiting for you!$"
 
-MatchCall_Text_Norman4::
-	.string "DAD: {PLAYER}! You'd better go visit\n"
+MatchCall_Text_Yew4::
+	.string "YEW: {PLAYER}! You'd better go visit\n"
 	.string "Mother every so often.\p"
 	.string "I'm going to remain here and\n"
 	.string "redouble my training.\p"
 	.string "The way of battling is deep\n"
 	.string "and unforgiving!$"
 
-MatchCall_Text_Norman5::
-	.string "DAD: Oh, hi, {PLAYER}!\p"
-	.string "What's that? MAGMA EMBLEM?\n"
+MatchCall_Text_Yew5::
+	.string "YEW: Oh, hi, {PLAYER}!\p"
+	.string "What's that? VIGIL EMBLEM?\n"
 	.string "I don't know what that's about.\p"
 	.string "But with a name like that, it may\n"
 	.string "be somehow linked to a volcano!$"
 
-MatchCall_Text_Norman_Preparing::
-	.string "DAD: Hiyah! Haah! Dwah!\p"
+MatchCall_Text_Yew_Preparing::
+	.string "YEW: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a POKéMON training session!$"
 
-MatchCall_Text_Norman_PreparingPostGame::
-	.string "DAD: {PLAYER}!\p"
+MatchCall_Text_Yew_PreparingPostGame::
+	.string "YEW: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
 	.string "the POKéMON LEAGUE CHAMPION…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
-MatchCall_Text_Norman_RematchReady::
-	.string "DAD: Hm? {PLAYER}?\n"
+MatchCall_Text_Yew_RematchReady::
+	.string "YEW: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
 	.string "I'm waiting in the PETALBURG GYM.\n"
 	.string "Accept my challenge anytime!$"
 
-MatchCall_Text_Norman_PostRematch::
-	.string "DAD: …You amaze me, {PLAYER}.\n"
+MatchCall_Text_Yew_PostRematch::
+	.string "YEW: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
 MatchCall_Text_Steven1::
@@ -2899,18 +2897,17 @@ MatchCall_Text_MrStone4::
 
 MatchCall_Text_MrStone5::
 	.string "MR. STONE: Hello, hello, {PLAYER}{KUN}!\p"
-	.string "I heard from someone in PETALBURG\n"
-	.string "that you're NORMAN's child!\p"
-	.string "No wonder you're such a capable\n"
-	.string "being!$"
+	.string "I heard in PETALBURG whose child\n"
+	.string "you are.\p"
+	.string "A dreadful business, that. He was\n"
+	.string "a fine man.$"
 
 MatchCall_Text_MrStone6::
 	.string "MR. STONE: What's that?\p"
-	.string "You battled your own father and\n"
-	.string "defeated him?\p"
+	.string "You took the BADGE off YEW herself?\p"
 	.string "That's astounding!\p"
-	.string "I had no idea that I befriended\n"
-	.string "someone so special! Wahaha!$"
+	.string "Your father would have had no\n"
+	.string "words for it. Wahaha!$"
 
 MatchCall_Text_MrStone7::
 	.string "Hello!\n"

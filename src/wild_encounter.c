@@ -671,6 +671,11 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
     if (sWildEncountersDisabled == TRUE)
         return FALSE;
 
+    // The player can reach tall grass in the cemetery before taking a starter.
+    // A wild battle with an empty party has nothing to send out, so refuse one.
+    if (!FlagGet(FLAG_SYS_POKEMON_GET))
+        return FALSE;
+
     headerId = GetCurrentMapWildMonHeaderId();
     if (headerId == HEADER_NONE)
     {

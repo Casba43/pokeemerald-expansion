@@ -352,8 +352,8 @@ Route104_EventScript_SailToDewford::
 	waitmovement 0
 	hideobjectat LOCALID_PLAYER, MAP_ROUTE104
 	call Common_EventScript_PlayBrineysBoatMusic
-	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
-	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordDadCalls
+	goto_if_set FLAG_ENABLE_YEW_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
+	goto_if_unset FLAG_ENABLE_YEW_MATCH_CALL, Route104_EventScript_SailToDewfordYewCalls
 	end
 
 Route104_EventScript_SailToDewfordNoCall::
@@ -362,21 +362,21 @@ Route104_EventScript_SailToDewfordNoCall::
 	waitmovement 0
 	goto Route104_EventScript_ArriveInDewford
 
-Route104_EventScript_SailToDewfordDadCalls::
-	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordBeforeDadCalls
-	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordBeforeDadCalls
+Route104_EventScript_SailToDewfordYewCalls::
+	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordBeforeYewCalls
+	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordBeforeYewCalls
 	waitmovement 0
-	pokenavcall Route104_Text_DadPokenavCall
+	pokenavcall Route104_Text_YewPokenavCall
 	waitmessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox Route104_Text_RegisteredDadInPokenav, MSGBOX_DEFAULT
+	msgbox Route104_Text_RegisteredYewInPokenav, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage
 	delay 30
-	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
-	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordAfterDadCalls
-	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordAfterDadCalls, MAP_ROUTE104
+	setflag FLAG_ENABLE_YEW_MATCH_CALL
+	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordAfterYewCalls
+	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordAfterYewCalls, MAP_ROUTE104
 	waitmovement LOCALID_ROUTE104_BOAT, MAP_ROUTE104
 	waitmovement 0
 	goto Route104_EventScript_ArriveInDewford
@@ -419,7 +419,7 @@ Route104_EventScript_LandedInDewford::
 	releaseall
 	end
 
-Route104_Movement_SailToDewfordBeforeDadCalls:
+Route104_Movement_SailToDewfordBeforeYewCalls:
 	walk_down
 	walk_down
 	walk_down
@@ -519,7 +519,7 @@ Route104_Movement_SailToDewfordBeforeDadCalls:
 	walk_faster_down
 	step_end
 
-Route104_Movement_SailToDewfordAfterDadCalls:
+Route104_Movement_SailToDewfordAfterYewCalls:
 	walk_faster_down
 	walk_faster_down
 	walk_faster_down

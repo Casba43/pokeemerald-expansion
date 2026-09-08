@@ -78,6 +78,7 @@ static void CB2_EndMarowakBattle(void);
 static void TryUpdateGymLeaderRematchFromWild(void);
 static void TryUpdateGymLeaderRematchFromTrainer(void);
 static void CB2_GiveStarter(void);
+static void CB2_GiveStarterNoBattle(void);
 static void CB2_StartFirstBattle(void);
 static void CB2_EndFirstBattle(void);
 static void SaveChangesToPlayerParty(void);
@@ -228,7 +229,7 @@ const struct RematchTrainer gRematchTable[REMATCH_TABLE_ENTRIES] =
     [REMATCH_BRAWLY] = REMATCH(TRAINER_BRAWLY_1, TRAINER_BRAWLY_2, TRAINER_BRAWLY_3, TRAINER_BRAWLY_4, TRAINER_BRAWLY_5, MAP_DEWFORD_TOWN),
     [REMATCH_WATTSON] = REMATCH(TRAINER_WATTSON_1, TRAINER_WATTSON_2, TRAINER_WATTSON_3, TRAINER_WATTSON_4, TRAINER_WATTSON_5, MAP_MAUVILLE_CITY),
     [REMATCH_FLANNERY] = REMATCH(TRAINER_FLANNERY_1, TRAINER_FLANNERY_2, TRAINER_FLANNERY_3, TRAINER_FLANNERY_4, TRAINER_FLANNERY_5, MAP_LAVARIDGE_TOWN),
-    [REMATCH_NORMAN] = REMATCH(TRAINER_NORMAN_1, TRAINER_NORMAN_2, TRAINER_NORMAN_3, TRAINER_NORMAN_4, TRAINER_NORMAN_5, MAP_PETALBURG_CITY),
+    [REMATCH_YEW] = REMATCH(TRAINER_YEW_1, TRAINER_YEW_2, TRAINER_YEW_3, TRAINER_YEW_4, TRAINER_YEW_5, MAP_PETALBURG_CITY),
     [REMATCH_WINONA] = REMATCH(TRAINER_WINONA_1, TRAINER_WINONA_2, TRAINER_WINONA_3, TRAINER_WINONA_4, TRAINER_WINONA_5, MAP_FORTREE_CITY),
     [REMATCH_TATE_AND_LIZA] = REMATCH(TRAINER_TATE_AND_LIZA_1, TRAINER_TATE_AND_LIZA_2, TRAINER_TATE_AND_LIZA_3, TRAINER_TATE_AND_LIZA_4, TRAINER_TATE_AND_LIZA_5, MAP_MOSSDEEP_CITY),
     [REMATCH_JUAN] = REMATCH(TRAINER_JUAN_1, TRAINER_JUAN_2, TRAINER_JUAN_3, TRAINER_JUAN_4, TRAINER_JUAN_5, MAP_SOOTOPOLIS_CITY),
@@ -600,6 +601,17 @@ void BattleSetup_StartLegendaryBattle(void)
     case SPECIES_RAYQUAZA_MEGA:
         CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_RAYQUAZA);
         break;
+    // The three the cult is built around, given the same billing as the
+    // legends they replaced.
+    case SPECIES_GIRATINA:
+        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
+        break;
+    case SPECIES_DARKRAI:
+        CreateBattleStartTask(B_TRANSITION_KYOGRE, MUS_VS_KYOGRE_GROUDON);
+        break;
+    case SPECIES_LUNALA:
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_RAYQUAZA);
+        break;
     case SPECIES_DEOXYS_NORMAL:
     case SPECIES_DEOXYS_ATTACK:
     case SPECIES_DEOXYS_DEFENSE:
@@ -912,15 +924,15 @@ enum BattleTransition GetTrainerBattleTransition(void)
     if (DoesTrainerHaveMugshot(trainerId))
         return B_TRANSITION_MUGSHOT;
 
-    if (trainerClass == TRAINER_CLASS_TEAM_MAGMA
-        || trainerClass == TRAINER_CLASS_MAGMA_LEADER
-        || trainerClass == TRAINER_CLASS_MAGMA_ADMIN)
-        return B_TRANSITION_MAGMA;
+    if (trainerClass == TRAINER_CLASS_TEAM_VIGIL
+        || trainerClass == TRAINER_CLASS_VIGIL_LEADER
+        || trainerClass == TRAINER_CLASS_VIGIL_ADMIN)
+        return B_TRANSITION_VIGIL;
 
-    if (trainerClass == TRAINER_CLASS_TEAM_AQUA
-        || trainerClass == TRAINER_CLASS_AQUA_LEADER
-        || trainerClass == TRAINER_CLASS_AQUA_ADMIN)
-        return B_TRANSITION_AQUA;
+    if (trainerClass == TRAINER_CLASS_TEAM_CHOIR
+        || trainerClass == TRAINER_CLASS_CHOIR_LEADER
+        || trainerClass == TRAINER_CLASS_CHOIR_ADMIN)
+        return B_TRANSITION_CHOIR;
 
     switch (GetTrainerBattleType(trainerId))
     {
@@ -1000,6 +1012,14 @@ void ChooseStarter(void)
     gMain.savedCallback = CB2_GiveStarter;
 }
 
+// As ChooseStarter, but hands the player their Pokemon and returns straight to
+// the field instead of dropping into the scripted first battle.
+void ChooseStarterNoBattle(void)
+{
+    SetMainCallback2(CB2_ChooseStarter);
+    gMain.savedCallback = CB2_GiveStarterNoBattle;
+}
+
 static void CB2_GiveStarter(void)
 {
     u16 starterMon;
@@ -1011,6 +1031,14 @@ static void CB2_GiveStarter(void)
     PlayBattleBGM();
     SetMainCallback2(CB2_StartFirstBattle);
     BattleTransition_Start(B_TRANSITION_BLUR);
+}
+
+static void CB2_GiveStarterNoBattle(void)
+{
+    *GetVarPointer(VAR_STARTER_MON) = gSpecialVar_Result;
+    ScriptGiveMon(GetStarterPokemon(gSpecialVar_Result), 5, ITEM_NONE);
+    ResetTasks();
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
 }
 
 static void CB2_StartFirstBattle(void)
@@ -1747,10 +1775,10 @@ void PlayTrainerEncounterMusic(void)
     case TRAINER_ENCOUNTER_MUSIC_COOL:
         music = MUS_ENCOUNTER_COOL;
         break;
-    case TRAINER_ENCOUNTER_MUSIC_AQUA:
+    case TRAINER_ENCOUNTER_MUSIC_CHOIR:
         music = MUS_ENCOUNTER_AQUA;
         break;
-    case TRAINER_ENCOUNTER_MUSIC_MAGMA:
+    case TRAINER_ENCOUNTER_MUSIC_VIGIL:
         music = MUS_ENCOUNTER_MAGMA;
         break;
     case TRAINER_ENCOUNTER_MUSIC_SWIMMER:

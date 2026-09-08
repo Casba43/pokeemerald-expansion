@@ -3,7 +3,7 @@ AquaHideout_B2F_MapScripts::
 	.byte 0
 
 AquaHideout_B2F_OnTransition:
-	call_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, AquaHideout_B2F_EventScript_PreventMattNoticing
+	call_if_set FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, AquaHideout_B2F_EventScript_PreventMattNoticing
 	end
 
 AquaHideout_B2F_EventScript_PreventMattNoticing::
@@ -23,7 +23,7 @@ AquaHideout_B2F_EventScript_MattNoticePlayer::
 	end
 
 AquaHideout_B2F_EventScript_Matt::
-	trainerbattle_single TRAINER_MATT, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
+	trainerbattle_single TRAINER_LINDEN, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -46,8 +46,8 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	applymovement VAR_0x8008, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
-	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
-	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
+	setflag FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE
+	setflag FLAG_HIDE_LILYCOVE_CITY_CHOIR_GRUNTS
 	release
 	end
 
@@ -67,7 +67,7 @@ AquaHideout_B2F_Movement_SumbarineDepartRight:
 	step_end
 
 AquaHideout_B2F_EventScript_Grunt4::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_4, AquaHideout_B2F_Text_Grunt4Intro, AquaHideout_B2F_Text_Grunt4Defeat, AquaHideout_B2F_EventScript_Grunt4Defeated
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_4, AquaHideout_B2F_Text_Grunt4Intro, AquaHideout_B2F_Text_Grunt4Defeat, AquaHideout_B2F_EventScript_Grunt4Defeated
 	msgbox AquaHideout_B2F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -77,12 +77,12 @@ AquaHideout_B2F_EventScript_Grunt4Defeated::
 	end
 
 AquaHideout_B2F_EventScript_Grunt6::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_6, AquaHideout_B2F_Text_Grunt6Intro, AquaHideout_B2F_Text_Grunt6Defeat
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_6, AquaHideout_B2F_Text_Grunt6Intro, AquaHideout_B2F_Text_Grunt6Defeat
 	msgbox AquaHideout_B2F_Text_Grunt6PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 AquaHideout_B2F_EventScript_Grunt8::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_8, AquaHideout_B2F_Text_Grunt8Intro, AquaHideout_B2F_Text_Grunt8Defeat
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_8, AquaHideout_B2F_Text_Grunt8Intro, AquaHideout_B2F_Text_Grunt8Defeat
 	msgbox AquaHideout_B2F_Text_Grunt8PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -146,7 +146,7 @@ AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "chew me out…$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-	.string "When I joined TEAM AQUA, the first\n"
+	.string "When I joined TEAM CHOIR, the first\n"
 	.string "thing I had to learn was how these\l"
 	.string "warp panels connected.$"
 

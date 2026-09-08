@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_ARCHIE",
-      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
       "x": 23,
       "y": 6,
       "elevation": 3,
@@ -40,7 +40,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_THORNE"
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_OLD_LADY",
@@ -58,7 +58,7 @@
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_GRUNT_1",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 21,
       "y": 15,
       "elevation": 3,
@@ -68,11 +68,11 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtPyre_Summit_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR"
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_GRUNT_2",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 25,
       "y": 18,
       "elevation": 3,
@@ -82,11 +82,11 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtPyre_Summit_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR"
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_GRUNT_3",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 21,
       "y": 11,
       "elevation": 3,
@@ -96,11 +96,11 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtPyre_Summit_EventScript_Grunt3",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR"
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_GRUNT_4",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 25,
       "y": 11,
       "elevation": 3,
@@ -110,11 +110,11 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MtPyre_Summit_EventScript_Grunt4",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR"
     },
     {
       "local_id": "LOCALID_MT_PYRE_SUMMIT_MAXIE",
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
       "x": 23,
       "y": 6,
       "elevation": 3,
@@ -124,7 +124,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE"
+      "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_RUE"
     }
   ],
   "warp_events": [

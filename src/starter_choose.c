@@ -60,6 +60,13 @@ const u32 gBirchBagGrass_Gfx[] = INCGFX_U32("graphics/starter_choose/tiles.png",
 const u32 gPokeballSelection_Gfx[] = INCGFX_U32("graphics/starter_choose/pokeball_selection.png", ".4bpp.smol");
 static const u32 sStarterCircle_Gfx[] = INCGFX_U32("graphics/starter_choose/starter_circle.png", ".4bpp.smol");
 
+// The cemetery the game now opens in. The Birch bag assets above are kept
+// because the credits and the save-failed screen still draw with them.
+static const u16 sCemetery_Pal[] = INCGFX_U16("graphics/starter_choose/cemetery_tiles.png", ".gbapal");
+static const u32 sCemetery_Gfx[] = INCGFX_U32("graphics/starter_choose/cemetery_tiles.png", ".4bpp.smol");
+static const u32 sCemeteryFront_Tilemap[] = INCGFX_U32("graphics/starter_choose/cemetery_front.bin", ".smolTM");
+static const u32 sCemeteryBack_Tilemap[] = INCGFX_U32("graphics/starter_choose/cemetery_back.bin", ".smolTM");
+
 static const struct WindowTemplate sWindowTemplates[] =
 {
     {
@@ -110,9 +117,9 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
-#define GRASS_STARTER (IS_FRLG ? SPECIES_BULBASAUR  : SPECIES_TREECKO)
-#define FIRE_STARTER  (IS_FRLG ? SPECIES_CHARMANDER : SPECIES_TORCHIC)
-#define WATER_STARTER (IS_FRLG ? SPECIES_SQUIRTLE   : SPECIES_MUDKIP )
+#define GRASS_STARTER (IS_FRLG ? SPECIES_GASTLY  : SPECIES_GASTLY)
+#define FIRE_STARTER  (IS_FRLG ? SPECIES_RALTS : SPECIES_RALTS)
+#define WATER_STARTER (IS_FRLG ? SPECIES_PAWNIARD   : SPECIES_PAWNIARD )
 
 static const u16 sStarterMon[STARTER_MON_COUNT] =
 {
@@ -396,9 +403,9 @@ void CB2_ChooseStarter(void)
     DmaFill32(3, 0, OAM, OAM_SIZE);
     DmaFill16(3, 0, PLTT, PLTT_SIZE);
 
-    DecompressDataWithHeaderVram(gBirchBagGrass_Gfx, (void *)VRAM);
-    DecompressDataWithHeaderVram(gBirchBagTilemap, (void *)(BG_SCREEN_ADDR(6)));
-    DecompressDataWithHeaderVram(gBirchGrassTilemap, (void *)(BG_SCREEN_ADDR(7)));
+    DecompressDataWithHeaderVram(sCemetery_Gfx, (void *)VRAM);
+    DecompressDataWithHeaderVram(sCemeteryFront_Tilemap, (void *)(BG_SCREEN_ADDR(6)));  // BG3, in front
+    DecompressDataWithHeaderVram(sCemeteryBack_Tilemap, (void *)(BG_SCREEN_ADDR(7)));   // BG2, behind
 
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sBgTemplates, ARRAY_COUNT(sBgTemplates));
@@ -415,7 +422,7 @@ void CB2_ChooseStarter(void)
     ResetAllPicSprites();
 
     LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(14), PLTT_SIZE_4BPP);
-    LoadPalette(gBirchBagGrass_Pal, BG_PLTT_ID(0), sizeof(gBirchBagGrass_Pal));
+    LoadPalette(sCemetery_Pal, BG_PLTT_ID(0), sizeof(sCemetery_Pal));
     LoadCompressedSpriteSheet(&sSpriteSheet_PokeballSelect[0]);
     LoadCompressedSpriteSheet(&sSpriteSheet_StarterCircle[0]);
     LoadSpritePalettes(sSpritePalettes_StarterChoose);

@@ -1521,7 +1521,7 @@
 #define FLAG_RECEIVED_WAILMER_PAIL           0
 #define FLAG_RECEIVED_POKEBLOCK_CASE         0
 #define FLAG_RECEIVED_SECRET_POWER           0
-#define FLAG_MET_TEAM_AQUA_HARBOR            0
+#define FLAG_MET_TEAM_CHOIR_HARBOR            0
 #define FLAG_TV_EXPLAINED                    0
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0
 #define FLAG_MOSSDEEP_GYM_SWITCH_1           0 // Leftover from the RS version of Mossdeep Gym, functionally unused
@@ -1535,13 +1535,13 @@
 #define FLAG_WHITEOUT_TO_LAVARIDGE           0 // Set after defeating Flannery, so the player can't white out from poison before receiving Go Goggles
 #define FLAG_RECEIVED_HM_FLASH               0
 #define FLAG_RECEIVED_HM_FLY                 0
-#define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0
-#define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0
+#define FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT  0
+#define FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE  0
 #define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
 #define FLAG_RECEIVED_METEORITE              0
 #define FLAG_ADVENTURE_STARTED               0 // RECEIVED Pokédex.
-#define FLAG_DEFEATED_MAGMA_SPACE_CENTER     0 // Set when Team Magma is defeated at Mossdeep's Space Center.
+#define FLAG_DEFEATED_VIGIL_SPACE_CENTER     0 // Set when Team Magma is defeated at Mossdeep's Space Center.
 #define FLAG_MET_HIDDEN_POWER_GIVER          0
 
 #define FLAG_CANCEL_BATTLE_ROOM_CHALLENGE    0
@@ -1583,7 +1583,7 @@
 #define FLAG_FORTREE_NPC_TRADE_COMPLETED     0
 #define FLAG_BATTLE_FRONTIER_TRADE_DONE      0
 #define FLAG_FORCE_MIRAGE_TOWER_VISIBLE      0
-#define FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE   0
+#define FLAG_SOOTOPOLIS_THORNE_RUE_LEAVE   0
 #define FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN 0
 #define FLAG_COOL_PAINTING_MADE              0
 #define FLAG_BEAUTY_PAINTING_MADE            0
@@ -1632,7 +1632,7 @@
 #define FLAG_RECEIVED_YELLOW_SCARF           0
 #define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0
-#define FLAG_MET_ARCHIE_METEOR_FALLS         0
+#define FLAG_MET_THORNE_METEOR_FALLS         0
 #define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0
 #define FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON 0
 #define FLAG_FAN_CLUB_STRENGTH_SHARED        0 // Set when you rate the strength of another trainer in Lilycove's Trainer Fan Club.
@@ -1733,14 +1733,14 @@
 #define FLAG_HAS_MATCH_CALL                  0
 #define FLAG_ADDED_MATCH_CALL_TO_POKENAV     0
 #define FLAG_REGISTERED_STEVEN_POKENAV       0
-#define FLAG_ENABLE_NORMAN_MATCH_CALL        0
+#define FLAG_ENABLE_YEW_MATCH_CALL        0
 #define FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN 0 // Set after you follow Steven to the entrance of the Cave of Origin.
-#define FLAG_MET_ARCHIE_SOOTOPOLIS           0
-#define FLAG_MET_MAXIE_SOOTOPOLIS            0
+#define FLAG_MET_THORNE_SOOTOPOLIS           0
+#define FLAG_MET_RUE_SOOTOPOLIS            0
 #define FLAG_MET_SCOTT_RUSTBORO              0
 #define FLAG_WALLACE_GOES_TO_SKY_PILLAR      0 // Set after speaking to Wallace within the Cave of Origin.
 #define FLAG_RECEIVED_HM_WATERFALL           0
-#define FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS    0
+#define FLAG_BEAT_VIGIL_GRUNT_JAGGED_PASS    0
 
 #define FLAG_MIRAGE_TOWER_VISIBLE            0
 #define FLAG_CHOSE_ROOT_FOSSIL               0
@@ -1833,7 +1833,7 @@
 #define FLAG_REGISTERED_BRAWLY               0
 #define FLAG_REGISTERED_WATTSON              0
 #define FLAG_REGISTERED_FLANNERY             0
-#define FLAG_REGISTERED_NORMAN               0
+#define FLAG_REGISTERED_YEW               0
 #define FLAG_REGISTERED_WINONA               0
 #define FLAG_REGISTERED_TATE_AND_LIZA        0
 #define FLAG_REGISTERED_JUAN                 0
@@ -1866,8 +1866,8 @@
 #define FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE 0
 #define FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE 0
 #define FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE 0
-#define FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT 0
-#define FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT 0
+#define FLAG_DEFEATED_ELECTRODE_1_CHOIR_HIDEOUT 0
+#define FLAG_DEFEATED_ELECTRODE_2_CHOIR_HIDEOUT 0
 #define FLAG_DEFEATED_SUDOWOODO              0
 #define FLAG_DEFEATED_MEW                    0
 #define FLAG_DEFEATED_LATIAS_OR_LATIOS       0
@@ -2026,19 +2026,19 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0
-#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0
+#define FLAG_HIDE_PETALBURG_WOODS_CHOIR_GRUNT                        0
 #define FLAG_HIDE_PETALBURG_CITY_WALLY                              0
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0
 
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0
+#define FLAG_HIDE_RUSTBORO_CITY_CHOIR_GRUNT                          0
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0
-#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0
+#define FLAG_HIDE_PLAYERS_HOUSE_YEW                                 0
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_VIGIL_NOTE             0
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0
 #define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0
@@ -2057,7 +2057,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_VIGIL          0
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0
@@ -2072,7 +2072,7 @@
 #define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0
+#define FLAG_HIDE_PETALBURG_GYM_YEW                              0
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0
@@ -2117,19 +2117,19 @@
 #define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0
-#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0
+#define FLAG_HIDE_ROUTE_112_TEAM_VIGIL                              0
 #define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0
-#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0
+#define FLAG_HIDE_CHOIR_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0
+#define FLAG_HIDE_CHOIR_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0
+#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL                          0
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0 // Unused, leftover from R/S
-#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0
+#define FLAG_HIDE_SOOTOPOLIS_CITY_THORNE                            0
+#define FLAG_HIDE_SOOTOPOLIS_CITY_RUE                             0
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_THORNE                     0
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_RUE                      0
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_VIGIL_GRUNTS               0
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0
 #define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0
 #define FLAG_HIDE_ROUTE_128_STEVEN                                  0
@@ -2143,24 +2143,24 @@
 #define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0
 #define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0
 #define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0
-#define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CHOIR_GRUNT                  0
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_THORNE                      0
+#define FLAG_HIDE_JAGGED_PASS_VIGIL_GUARD                           0
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0
-#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0
+#define FLAG_HIDE_VIGIL_HIDEOUT_4F_GROUDON_ASLEEP                   0
 #define FLAG_HIDE_ROUTE_119_RIVAL                                   0
-#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0
-#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0
+#define FLAG_HIDE_LILYCOVE_CITY_CHOIR_GRUNTS                         0
+#define FLAG_HIDE_VIGIL_HIDEOUT_4F_GROUDON                          0
 #define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0
 #define FLAG_HIDE_SKY_PILLAR_WALLACE                                0
-#define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0
-#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0
+#define FLAG_HIDE_MT_PYRE_SUMMIT_RUE                              0
+#define FLAG_HIDE_VIGIL_HIDEOUT_GRUNTS                              0
 #define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_VIGIL          0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0
@@ -2176,19 +2176,19 @@
 #define FLAG_HIDE_ROUTE_111_PLAYER_DESCENT                          0
 #define FLAG_HIDE_ROUTE_111_DESERT_FOSSIL                           0
 #define FLAG_HIDE_MT_CHIMNEY_TRAINERS                               0
-#define FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT                         0
+#define FLAG_HIDE_RUSTURF_TUNNEL_CHOIR_GRUNT                         0
 #define FLAG_HIDE_RUSTURF_TUNNEL_BRINEY                             0
 #define FLAG_HIDE_RUSTURF_TUNNEL_PEEKO                              0
 #define FLAG_HIDE_BRINEYS_HOUSE_PEEKO                               0
-#define FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA                          0
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS         0
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1     0
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2     0
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE           0
+#define FLAG_HIDE_SLATEPORT_CITY_TEAM_CHOIR                          0
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_CHOIR_GRUNTS         0
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CHOIR_GRUNT_1     0
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CHOIR_GRUNT_2     0
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_THORNE           0
 #define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN    0
 #define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0
-#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0
+#define FLAG_HIDE_ROUTE_119_TEAM_CHOIR                               0
 #define FLAG_HIDE_ROUTE_116_MR_BRINEY                               0
 #define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0
 #define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0
@@ -2198,7 +2198,7 @@
 #define FLAG_HIDE_ROUTE_101_BIRCH                                   0
 #define FLAG_HIDE_ROUTE_103_BIRCH                                   0
 #define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0
-#define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0
+#define FLAG_HIDE_ROUTE_110_TEAM_CHOIR                               0
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0
@@ -2212,20 +2212,20 @@
 #define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0
 #define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0
 #define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0
-#define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0
+#define FLAG_HIDE_ROUTE_121_TEAM_CHOIR_GRUNTS                        0
 #define FLAG_UNKNOWN_0x393                                          0 // Set, however has no purpose.
-#define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0
-#define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA                          0
+#define FLAG_HIDE_MT_PYRE_SUMMIT_THORNE                             0
+#define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR                          0
 #define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0
 #define FLAG_HIDE_ROUTE_110_RIVAL                                   0
 #define FLAG_HIDE_CHAMPIONS_ROOM_RIVAL                              0
 #define FLAG_HIDE_CHAMPIONS_ROOM_BIRCH                              0
 #define FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE                           0
 #define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0
-#define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0
+#define FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS                               0
 #define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA                              0
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA                             0
+#define FLAG_HIDE_MT_CHIMNEY_TEAM_CHOIR                              0
+#define FLAG_HIDE_MT_CHIMNEY_TEAM_VIGIL                             0
 #define FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO                        0
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0
@@ -2236,15 +2236,15 @@
 #define FLAG_HIDE_REGIROCK                                          0
 #define FLAG_HIDE_REGICE                                            0
 #define FLAG_HIDE_REGISTEEL                                         0
-#define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0
-#define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0
+#define FLAG_HIDE_METEOR_FALLS_TEAM_CHOIR                            0
+#define FLAG_HIDE_METEOR_FALLS_TEAM_VIGIL                           0
 #define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_CHOIR_GRUNT               0
 #define FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO                          0
-#define FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW                 0
-#define FLAG_HIDE_ROUTE_128_ARCHIE                                  0
-#define FLAG_HIDE_ROUTE_128_MAXIE                                   0
-#define FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS                       0
+#define FLAG_HIDE_CHOIR_HIDEOUT_B2F_SUBMARINE_SHADOW                 0
+#define FLAG_HIDE_ROUTE_128_THORNE                                  0
+#define FLAG_HIDE_ROUTE_128_RUE                                   0
+#define FLAG_HIDE_SEAFLOOR_CAVERN_CHOIR_GRUNTS                       0
 #define FLAG_HIDE_ROUTE_116_DEVON_EMPLOYEE                          0
 #define FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN                        0
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE              0
@@ -2263,7 +2263,7 @@
 #define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0
 #define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0
 #define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_CHOIR_GRUNT 0
 #define FLAG_HIDE_ROUTE_118_STEVEN                                  0
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0
@@ -2275,8 +2275,8 @@
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0
+#define FLAG_HIDE_CHOIR_HIDEOUT_B1F_ELECTRODE_1                      0
+#define FLAG_HIDE_CHOIR_HIDEOUT_B1F_ELECTRODE_2                      0
 #define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0
 #define FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE      0
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_SHADOW                   0
@@ -2290,7 +2290,7 @@
 #define FLAG_HIDE_ROUTE_119_KECLEON_1                               0
 #define FLAG_HIDE_ROUTE_119_KECLEON_2                               0
 #define FLAG_HIDE_ROUTE_101_BOY                                     0
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0
+#define FLAG_HIDE_WEATHER_INSTITUTE_2F_CHOIR_GRUNT_M                 0
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0
 #define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0
 #define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0
@@ -2359,7 +2359,7 @@
 #define FLAG_ITEM_PETALBURG_WOODS_GREAT_BALL                        0
 #define FLAG_ITEM_ROUTE_104_POKE_BALL                               0
 #define FLAG_ITEM_PETALBURG_WOODS_ETHER                             0
-#define FLAG_ITEM_MAGMA_HIDEOUT_3F_3R_ECAPE_ROPE                    0
+#define FLAG_ITEM_VIGIL_HIDEOUT_3F_3R_ECAPE_ROPE                    0
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL                  0
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL                  0
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL                    0
@@ -2371,8 +2371,8 @@
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL                  0
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_8_BEAD_MAIL                    0
 #define FLAG_ITEM_JAGGED_PASS_BURN_HEAL                             0
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR                       0
-#define FLAG_ITEM_AQUA_HIDEOUT_B2F_NEST_BALL                        0
+#define FLAG_ITEM_CHOIR_HIDEOUT_B1F_MAX_ELIXIR                       0
+#define FLAG_ITEM_CHOIR_HIDEOUT_B2F_NEST_BALL                        0
 #define FLAG_ITEM_MT_PYRE_EXTERIOR_MAX_POTION                       0
 #define FLAG_ITEM_MT_PYRE_EXTERIOR_TM_SKILL_SWAP                    0
 #define FLAG_ITEM_NEW_MAUVILLE_ULTRA_BALL                           0
@@ -2424,15 +2424,15 @@
 #define FLAG_ITEM_ROUTE_118_HYPER_POTION                            0
 #define FLAG_ITEM_NEW_MAUVILLE_FULL_HEAL                            0
 #define FLAG_ITEM_NEW_MAUVILLE_PARALYZE_HEAL                        0
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL                      0
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL                 0 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR                  0 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL                   0 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_CHOIR_HIDEOUT_B1F_MASTER_BALL                      0
+#define FLAG_ITEM_OLD_VIGIL_HIDEOUT_B1F_MASTER_BALL                 0 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_OLD_VIGIL_HIDEOUT_B1F_MAX_ELIXIR                  0 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_OLD_VIGIL_HIDEOUT_B2F_NEST_BALL                   0 // Unused Flag, leftover from the Ruby Magma hideout
 #define FLAG_UNUSED_0x468                                           0 // Unused Flag
 #define FLAG_ITEM_MT_PYRE_2F_ULTRA_BALL                             0
 #define FLAG_ITEM_MT_PYRE_4F_SEA_INCENSE                            0
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0
+#define FLAG_ITEM_CHOIR_HIDEOUT_B1F_NUGGET                           0
 #define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0 // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0
 #define FLAG_ITEM_ROUTE_104_POTION                                  0
@@ -2451,7 +2451,7 @@
 #define FLAG_ITEM_ROUTE_120_REVIVE                                  0
 #define FLAG_ITEM_ROUTE_121_REVIVE                                  0
 #define FLAG_ITEM_ROUTE_121_ZINC                                    0
-#define FLAG_ITEM_MAGMA_HIDEOUT_1F_RARE_CANDY                       0
+#define FLAG_ITEM_VIGIL_HIDEOUT_1F_RARE_CANDY                       0
 #define FLAG_ITEM_ROUTE_123_PP_UP                                   0
 #define FLAG_ITEM_ROUTE_123_REVIVAL_HERB                            0
 #define FLAG_ITEM_ROUTE_125_BIG_PEARL                               0
@@ -2464,11 +2464,11 @@
 #define FLAG_ITEM_ROUTE_115_PP_UP                                   0
 #define FLAG_ITEM_ARTISAN_CAVE_B1F_HP_UP                            0
 #define FLAG_ITEM_ARTISAN_CAVE_1F_CARBOS                            0
-#define FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_MAX_ELIXIR                    0
-#define FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_FULL_RESTORE                  0
-#define FLAG_ITEM_MAGMA_HIDEOUT_3F_1R_NUGGET                        0
-#define FLAG_ITEM_MAGMA_HIDEOUT_3F_2R_PP_MAX                        0
-#define FLAG_ITEM_MAGMA_HIDEOUT_4F_MAX_REVIVE                       0
+#define FLAG_ITEM_VIGIL_HIDEOUT_2F_2R_MAX_ELIXIR                    0
+#define FLAG_ITEM_VIGIL_HIDEOUT_2F_2R_FULL_RESTORE                  0
+#define FLAG_ITEM_VIGIL_HIDEOUT_3F_1R_NUGGET                        0
+#define FLAG_ITEM_VIGIL_HIDEOUT_3F_2R_PP_MAX                        0
+#define FLAG_ITEM_VIGIL_HIDEOUT_4F_MAX_REVIVE                       0
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0
 

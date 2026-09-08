@@ -270,7 +270,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanM::
 	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanMPlayersFan
 	specialvar VAR_RESULT, GetNumFansOfPlayerInTrainerFanClub
 	goto_if_eq VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1), LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanMOnlyNonFan
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToYew, MSGBOX_DEFAULT
 	release
 	end
 
@@ -287,7 +287,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanMOnlyFan::
 	end
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_PokefanMOnlyNonFan::
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_YouAndYewAreDifferent, MSGBOX_DEFAULT
 	release
 	end
 
@@ -651,19 +651,19 @@ LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
 	.string "You never give up even if you lose!\n"
 	.string "So keep on battling!$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
-	.string "NORMAN battled with more power,\n"
+LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToYew:
+	.string "YEW battled with more power,\n"
 	.string "charisma, and showmanship than you.\p"
 	.string "Even though people may say that\n"
 	.string "you're strong…\p"
 	.string "You've still got a long way to go\n"
-	.string "compared to your father.$"
+	.string "compared to YEW.$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
+LilycoveCity_PokemonTrainerFanClub_Text_YouAndYewAreDifferent:
 	.string "You're beginning to get the same\n"
-	.string "air of awe NORMAN exudes.\p"
+	.string "air of awe YEW exudes.\p"
 	.string "But there's something conclusively\n"
-	.string "different between you and NORMAN.\p"
+	.string "different between you and YEW.\p"
 	.string "I can't tell you what that is.\n"
 	.string "You'll have to find it yourself.$"
 

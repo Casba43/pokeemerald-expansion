@@ -43,7 +43,7 @@
     },
     {
       "local_id": "LOCALID_PETALBURG_WOODS_GRUNT",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 26,
       "y": 17,
       "elevation": 3,
@@ -53,7 +53,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_CHOIR_GRUNT"
     },
     {
       "local_id": "LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE",

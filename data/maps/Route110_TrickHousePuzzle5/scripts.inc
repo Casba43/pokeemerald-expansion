@@ -948,7 +948,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 	.string "MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "borrow at PETALBURG GYM?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 	.string "MECHADOLL 2 QUIZ.\p"
@@ -957,7 +957,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did TEAM AQUA\n"
+	.string "Which of these POKéMON did TEAM CHOIR\n"
 	.string "use in PETALBURG FOREST?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:

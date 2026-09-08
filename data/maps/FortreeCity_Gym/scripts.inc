@@ -46,6 +46,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	setflag FLAG_ENABLE_WINONA_MATCH_CALL
 	setvar VAR_SCOTT_FORTREE_CALL_STEP_COUNTER, 0
 	setflag FLAG_SCOTT_CALL_FORTREE_GYM
+	msgbox FortreeCity_Gym_Text_WinonaTellsWhatSheSaw, MSGBOX_DEFAULT
 	release
 	end
 
@@ -137,21 +138,22 @@ FortreeCity_Gym_EventScript_GymStatue::
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
+	.string "FORTREE GYM LEADER WINONA trains\n"
+	.string "DARK- and FLYING-type POKéMON.\p"
+	.string "Crows, mostly. The birds that start\n"
+	.string "circling before anyone knows why.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "Try not to look up on your way in.\p"
 	.string "Okay, go for it!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory:
 	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "Listen. Even the crows went quiet!$"
 
 FortreeCity_Gym_Text_JaredIntro:
-	.string "Behold the elegant battle style of\n"
-	.string "BIRD POKéMON!$"
+	.string "Behold the patient battle style of\n"
+	.string "carrion birds!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
 	.string "You…\n"
@@ -164,8 +166,8 @@ FortreeCity_Gym_Text_JaredPostBattle:
 	.string "our LEADER?$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-	.string "The lovers of BIRD POKéMON aspire\n"
-	.string "to join this GYM.\p"
+	.string "Everyone loves the pretty birds.\n"
+	.string "We keep the other kind.\p"
 	.string "As a member of the FORTREE GYM,\n"
 	.string "I'm not allowed to lose!$"
 
@@ -220,9 +222,9 @@ FortreeCity_Gym_Text_HumbertoPostBattle:
 	.string "or you'll go crashing down in a heap!$"
 
 FortreeCity_Gym_Text_DariusIntro:
-	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type POKéMON.\p"
-	.string "You do know that, right?$"
+	.string "You'd better know that not every\n"
+	.string "bird sings.\p"
+	.string "Some of them just wait.$"
 
 FortreeCity_Gym_Text_DariusDefeat:
 	.string "You seem to know your stuff!$"
@@ -235,12 +237,16 @@ FortreeCity_Gym_Text_DariusPostBattle:
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "I am WINONA. I am the LEADER of\n"
 	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "I have become one with the birds\n"
+	.string "that circle, and I see what they see…\p"
+	.string "They found your father, {PLAYER}.\n"
+	.string "Two days before any person did.\p"
+	.string "They held that hill and would not\n"
+	.string "be driven off it.\p"
+	.string "I have wondered every day since\n"
+	.string "what it was they would not leave.\p"
+	.string "Show me your strength. Then I will\n"
+	.string "tell you what I saw from up here.$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "Never before have I seen a TRAINER\n"
@@ -273,8 +279,26 @@ FortreeCity_Gym_Text_RegisteredWinona:
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+	.string "Lights on the cemetery road, going\n"
+	.string "up. Never coming down.\p"
+	.string "My birds have not gone near that\n"
+	.string "hill since. Nor will I.$"
+
+FortreeCity_Gym_Text_WinonaTellsWhatSheSaw:
+	.string "Now. What I saw.\p"
+	.string "The night before they found him,\n"
+	.string "there were lights on the cemetery\l"
+	.string "road, climbing toward the gate.\p"
+	.string "I counted eleven. They carried no\n"
+	.string "lamps, {PLAYER}.\p"
+	.string "The light was coming off of them.\p"
+	.string "I told the officers in RUSTBORO.\n"
+	.string "They wrote it down very carefully\l"
+	.string "and thanked me for my time.\p"
+	.string "Nobody has asked me since.\n"
+	.string "You are the first.\p"
+	.string "So go carefully. Whatever climbed\n"
+	.string "that road is still on it.$"
 
 FortreeCity_Gym_Text_GymStatue:
 	.string "FORTREE CITY POKéMON GYM$"
@@ -285,34 +309,34 @@ FortreeCity_Gym_Text_GymStatueCertified:
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
+	.string "WINONA: The fog has thinned since\n"
+	.string "you passed through here.\p"
+	.string "My birds go to the hill again.\n"
+	.string "They sit on the gate and wait.\p"
 	.string "You have scaled the pinnacle as\n"
 	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "Show me the strength that emptied\n"
+	.string "that road!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
 	.string "I failed to reach your height again…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
 	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "I will keep watching from up here.\p"
+	.string "Someone should. Someone should have\n"
+	.string "been watching long before this.\p"
+	.string "It will not happen twice.$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
+	.string "WINONA: The fog has thinned since\n"
+	.string "you passed through here.\p"
+	.string "My birds go to the hill again.\n"
+	.string "They sit on the gate and wait.\p"
 	.string "You have scaled the pinnacle as\n"
 	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
+	.string "Show me the strength that emptied\n"
+	.string "that road!\p"
 	.string "Oh, no… Do you have but one\n"
 	.string "POKéMON with you?\p"
 	.string "Please return with two POKéMON\n"

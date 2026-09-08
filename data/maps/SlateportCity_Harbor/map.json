@@ -84,7 +84,7 @@
     },
     {
       "local_id": "LOCALID_SLATEPORT_HARBOR_GRUNT",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 7,
       "y": 10,
       "elevation": 3,
@@ -94,11 +94,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_CHOIR_GRUNT"
     },
     {
       "local_id": "LOCALID_SLATEPORT_HARBOR_ARCHIE",
-      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
       "x": 8,
       "y": 10,
       "elevation": 3,
@@ -108,7 +108,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_THORNE"
     },
     {
       "local_id": "LOCALID_SLATEPORT_HARBOR_SUBMARINE",

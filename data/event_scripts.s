@@ -391,6 +391,7 @@ gStdScripts_End::
 	.include "data/maps/MtPyre_6F/scripts.inc"
 	.include "data/maps/MtPyre_Exterior/scripts.inc"
 	.include "data/maps/MtPyre_Summit/scripts.inc"
+	.include "data/maps/Cemetery/scripts.inc"
 	.include "data/maps/AquaHideout_1F/scripts.inc"
 	.include "data/maps/AquaHideout_B1F/scripts.inc"
 	.include "data/maps/AquaHideout_B2F/scripts.inc"

@@ -683,18 +683,16 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the POKéMON you\l"
-	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+	.string "Word travels. They say you came down\n"
+	.string "out of the cemetery with a POKéMON.\p"
+	.string "A {STR_VAR_1}, no less.\p"
+	.string "I have kept records of that ground\n"
+	.string "for thirty years, and I have never\l"
+	.string "logged one being handed out there.\p"
+	.string "…Keep it. Whatever left it for you\n"
+	.string "meant you to have it.\p"
+	.string "You have your father's blood in your\n"
+	.string "veins after all.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "PROF. BIRCH: While you're at it, why not\n"

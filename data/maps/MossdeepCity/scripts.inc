@@ -95,7 +95,7 @@ MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter::
 	removeobject LOCALID_MOSSDEEP_GRUNT_4
 	delay 30
 	setvar VAR_MOSSDEEP_CITY_STATE, 2
-	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL
 	releaseall
 	end
 
@@ -342,11 +342,11 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "I heard from a SAILOR buddy that\n"
-	.string "TEAM AQUA set up shop in LILYCOVE.\p"
+	.string "TEAM CHOIR set up shop in LILYCOVE.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
 	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that TEAM MAGMA.\p"
+	.string "by that TEAM VIGIL.\p"
 	.string "If you want to know what they're up to,\n"
 	.string "go visit the SPACE CENTER.$"
 

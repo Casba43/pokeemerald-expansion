@@ -6,8 +6,8 @@
       "name": "PetalburgCity_Layout",
       "width": 30,
       "height": 30,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/PetalburgCity/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity/map.bin",
       "layout_version": "emerald"
@@ -105,8 +105,8 @@
       "name": "LittlerootTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/LittlerootTown/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown/map.bin",
       "layout_version": "emerald"
@@ -116,8 +116,8 @@
       "name": "OldaleTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/OldaleTown/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin",
       "layout_version": "emerald"
@@ -182,8 +182,8 @@
       "name": "Route101_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin",
       "layout_version": "emerald"
@@ -193,8 +193,8 @@
       "name": "Route102_Layout",
       "width": 50,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/Route102/border.bin",
       "blockdata_filepath": "data/layouts/Route102/map.bin",
       "layout_version": "emerald"
@@ -204,8 +204,8 @@
       "name": "Route103_Layout",
       "width": 80,
       "height": 22,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_PetalburgGloom",
       "border_filepath": "data/layouts/Route103/border.bin",
       "blockdata_filepath": "data/layouts/Route103/map.bin",
       "layout_version": "emerald"
@@ -3526,8 +3526,8 @@
       "name": "SkyPillar_Outside_Layout",
       "width": 28,
       "height": 23,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_Outside/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin",
       "layout_version": "emerald"
@@ -3537,8 +3537,8 @@
       "name": "SkyPillar_1F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin",
       "layout_version": "emerald"
@@ -3548,8 +3548,8 @@
       "name": "SkyPillar_2F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_2F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F/map.bin",
       "layout_version": "emerald"
@@ -3559,8 +3559,8 @@
       "name": "SkyPillar_3F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_3F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F/map.bin",
       "layout_version": "emerald"
@@ -3570,8 +3570,8 @@
       "name": "SkyPillar_4F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_4F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F/map.bin",
       "layout_version": "emerald"
@@ -3625,8 +3625,8 @@
       "name": "SkyPillar_5F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_5F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F/map.bin",
       "layout_version": "emerald"
@@ -3636,8 +3636,8 @@
       "name": "SkyPillar_Top_Layout",
       "width": 27,
       "height": 24,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_Top/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top/map.bin",
       "layout_version": "emerald"
@@ -4758,8 +4758,8 @@
       "name": "SkyPillar_1F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_1F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F_Clean/map.bin",
       "layout_version": "emerald"
@@ -4769,8 +4769,8 @@
       "name": "SkyPillar_2F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_2F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F_Clean/map.bin",
       "layout_version": "emerald"
@@ -4780,8 +4780,8 @@
       "name": "SkyPillar_3F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_3F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F_Clean/map.bin",
       "layout_version": "emerald"
@@ -4791,8 +4791,8 @@
       "name": "SkyPillar_4F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_4F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F_Clean/map.bin",
       "layout_version": "emerald"
@@ -4802,8 +4802,8 @@
       "name": "SkyPillar_5F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_5F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F_Clean/map.bin",
       "layout_version": "emerald"
@@ -4813,8 +4813,8 @@
       "name": "SkyPillar_Top_Clean_Layout",
       "width": 27,
       "height": 24,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_GeneralMoonlit",
+      "secondary_tileset": "gTileset_PacifidlogMoonlit",
       "border_filepath": "data/layouts/SkyPillar_Top_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top_Clean/map.bin",
       "layout_version": "emerald"
@@ -9323,6 +9323,17 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_CEMETERY",
+      "name": "Cemetery_Layout",
+      "width": 26,
+      "height": 24,
+      "primary_tileset": "gTileset_GeneralGloom",
+      "secondary_tileset": "gTileset_FacilityGloom",
+      "border_filepath": "data/layouts/Cemetery/border.bin",
+      "blockdata_filepath": "data/layouts/Cemetery/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

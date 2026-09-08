@@ -340,10 +340,12 @@ PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "You've got to help me, please!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
+	.string "Hunh? What do you think you're doing?\p"
+	.string "…Wait. I know that face.\p"
+	.string "You are the LEADER's child. From\n"
+	.string "PETALBURG. From the north row.\p"
+	.string "You should not have come out here.\n"
+	.string "Nobody in TEAM CHOIR wanted that.\p"
 	.string "Come on and battle me!$"
 
 PetalburgWoods_Text_YoureKiddingMe:
@@ -351,12 +353,14 @@ PetalburgWoods_Text_YoureKiddingMe:
 
 PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
+	.string "meddling with TEAM CHOIR!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
 	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
+	.string "We are after papers in RUSTBORO.\n"
+	.string "DEVON keeps records nobody reads.\p"
+	.string "Records of who was buried, and when,\n"
+	.string "and who signed for it.\p"
 	.string "I'll let you go today!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
@@ -368,9 +372,10 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "Didn't that TEAM CHOIR thug say\n"
+	.string "they were after records in RUSTBORO?\p"
+	.string "Burial records. What would anyone\n"
+	.string "want with those?$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
 	.string "Uh-oh! It's a crisis!\n"

@@ -2045,6 +2045,50 @@ const u16 ALIGNED(4) gTilesetPalettes_General[][16] =
     INCGFX_U16("data/tilesets/primary/general/palettes/15.pal", ".gbapal"),
 };
 
+// Overcast regrade of gTileset_General for the starting region, so it reads as
+// part of the same world as the graveyard the game opens in. Palettes only;
+// the tiles and metatiles are shared with the original tileset.
+const u16 ALIGNED(4) gTilesetPalettes_GeneralGloom[][16] =
+{
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_gloom/palettes/15.pal", ".gbapal"),
+};
+
+// Moonlit regrade of gTileset_General for the LUNAR PILLAR. Palettes only.
+const u16 ALIGNED(4) gTilesetPalettes_GeneralMoonlit[][16] =
+{
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/primary/general_moonlit/palettes/15.pal", ".gbapal"),
+};
+
 const u32 gTilesetTiles_General[] = INCGFX_U32("data/tilesets/primary/general/tiles.png", ".4bpp.smol");
 
 // trade/egg hatch

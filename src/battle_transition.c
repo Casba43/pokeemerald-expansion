@@ -358,8 +358,8 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_GRID_SQUARES] = Task_GridSquares,
     [B_TRANSITION_ANGLED_WIPES] = Task_AngledWipes,
     [B_TRANSITION_MUGSHOT] = Task_Mugshot,
-    [B_TRANSITION_AQUA] = Task_Aqua,
-    [B_TRANSITION_MAGMA] = Task_Magma,
+    [B_TRANSITION_CHOIR] = Task_Aqua,
+    [B_TRANSITION_VIGIL] = Task_Magma,
     [B_TRANSITION_REGICE] = Task_Regice,
     [B_TRANSITION_REGISTEEL] = Task_Registeel,
     [B_TRANSITION_REGIROCK] = Task_Regirock,
@@ -1296,7 +1296,7 @@ static void HBlankCB_Shuffle(void)
 #undef tAmplitude
 
 //------------------------------------------------------------------------
-// B_TRANSITION_BIG_POKEBALL, B_TRANSITION_AQUA, B_TRANSITION_MAGMA,
+// B_TRANSITION_BIG_POKEBALL, B_TRANSITION_CHOIR, B_TRANSITION_VIGIL,
 // B_TRANSITION_REGICE, B_TRANSITION_REGISTEEL, B_TRANSITION_REGIROCK
 // and B_TRANSITION_KYOGRE.
 //

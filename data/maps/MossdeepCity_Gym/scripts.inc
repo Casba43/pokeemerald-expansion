@@ -69,15 +69,15 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	msgbox MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_BADGE07_GET
-	setflag FLAG_HIDE_AQUA_HIDEOUT_GRUNTS
+	setflag FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS
 	clearflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
 	clearflag FLAG_UNKNOWN_0x393
 	setvar VAR_0x8008, 7
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_VIGIL
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_VIGIL
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
 	setvar VAR_MOSSDEEP_CITY_STATE, 1
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
@@ -91,6 +91,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL
+	msgbox MossdeepCity_Gym_Text_TwinsWarnAboutSleep, MSGBOX_DEFAULT
 	release
 	end
 
@@ -379,9 +380,12 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
 	.string "they'll inflict horrible damage!\p"
 	.string "Plus, they'll come at you with\n"
 	.string "outstanding combination attacks.\p"
-	.string "If you want to win, you'll need to show\n"
-	.string "them how tight you are with your\l"
-	.string "POKéMON. Go for it!$"
+	.string "Word is one of those twins is always\n"
+	.string "asleep. They take it in turns.\p"
+	.string "Something about never leaving the\n"
+	.string "dreaming side unwatched.\p"
+	.string "Beats me! Show them how tight you\n"
+	.string "are with your POKéMON. Go for it!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
 	.string "Wow, you're astounding!\n"
@@ -557,10 +561,15 @@ MossdeepCity_Gym_Text_TateAndLizaIntro:
 	.string "LIZA: That there are two GYM LEADERS?\p"
 	.string "TATE: We're twins!\n"
 	.string "LIZA: We're twins!\p"
-	.string "TATE: We don't need to talk because…\n"
-	.string "LIZA: We can each determine what…\p"
-	.string "TATE: The other is thinking…\n"
-	.string "LIZA: All in our minds!\p"
+	.string "TATE: One of us keeps the waking…\n"
+	.string "LIZA: And one of us keeps the sleeping.\p"
+	.string "TATE: We take it in turns.\n"
+	.string "LIZA: We have never missed a night.\p"
+	.string "TATE: But lately something walks in\n"
+	.string "there that we cannot turn back…\p"
+	.string "LIZA: People go under and stay under.\p"
+	.string "TATE: So show us you are strong…\n"
+	.string "LIZA: Because we are getting tired.\p"
 	.string "TATE: This combination of ours…\n"
 	.string "LIZA: Can you beat it?$"
 
@@ -598,8 +607,8 @@ MossdeepCity_Gym_Text_TateAndLizaPostBattle:
 	.string "TATE: Looks like the bond between you\n"
 	.string "and your POKéMON is far stronger than\l"
 	.string "the bond that we share as twins.\p"
-	.string "LIZA: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "LIZA: Sleep well tonight, {PLAYER}.\n"
+	.string "We will be watching the road.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "TATE: Hehehe… Were you surprised?\p"
@@ -609,6 +618,22 @@ MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "TATE: We can't battle that way!\p"
 	.string "LIZA: If you want to challenge us,\n"
 	.string "bring some more POKéMON.$"
+
+MossdeepCity_Gym_Text_TwinsWarnAboutSleep:
+	.string "TATE: Before you go.\n"
+	.string "LIZA: Before you go.\p"
+	.string "TATE: You came from the west.\n"
+	.string "LIZA: From the town with the hill.\p"
+	.string "TATE: We have seen that hill from\n"
+	.string "the sleeping side.\p"
+	.string "LIZA: There is a door in it, and it\n"
+	.string "is not shut properly.\p"
+	.string "TATE: Something holds it open from\n"
+	.string "the other side…\p"
+	.string "LIZA: And it is very patient.\p"
+	.string "TATE: If you dream of the fog,\n"
+	.string "{PLAYER}, do not walk toward it.\p"
+	.string "LIZA: Wake up. Please just wake up.$"
 
 MossdeepCity_Gym_Text_GymStatue:
 	.string "MOSSDEEP CITY POKéMON GYM$"
@@ -623,10 +648,10 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch:
 	.string "LIZA: POKéMON…\p"
 	.string "TATE: By changing the party's mix…\n"
 	.string "LIZA: The battle style changes.\p"
-	.string "TATE: But me…\n"
-	.string "LIZA: But me…\p"
-	.string "TATE: I'll always be with LIZA!\n"
-	.string "LIZA: I'll always be with TATE!\p"
+	.string "TATE: The sleeping side is quiet now…\n"
+	.string "LIZA: And that is because of you.\p"
+	.string "TATE: So we can both be awake…\n"
+	.string "LIZA: At the same time, for once!\p"
 	.string "TATE: Our combination…\n"
 	.string "LIZA: We'll show you again and again!$"
 
@@ -637,8 +662,8 @@ MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
 	.string "TATE: You can knock us down,\n"
 	.string "but we'll never stay down!\p"
-	.string "LIZA: Because the two of us,\n"
-	.string "we always support each other!$"
+	.string "LIZA: We sleep properly now.\n"
+	.string "Both of us. Thank you for that.$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 	.string "TATE: You're back again…\n"

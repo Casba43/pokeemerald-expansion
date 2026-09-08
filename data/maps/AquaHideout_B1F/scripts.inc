@@ -14,16 +14,16 @@ AquaHideout_B1F_EventScript_TryRemoveElectrode::
 	return
 
 AquaHideout_B1F_OnTransition:
-	call_if_unset FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode1
-	call_if_unset FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode2
+	call_if_unset FLAG_DEFEATED_ELECTRODE_1_CHOIR_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode1
+	call_if_unset FLAG_DEFEATED_ELECTRODE_2_CHOIR_HIDEOUT, AquaHideout_B1F_EventScript_ShowElectrode2
 	end
 
 AquaHideout_B1F_EventScript_ShowElectrode1::
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1
+	clearflag FLAG_HIDE_CHOIR_HIDEOUT_B1F_ELECTRODE_1
 	return
 
 AquaHideout_B1F_EventScript_ShowElectrode2::
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2
+	clearflag FLAG_HIDE_CHOIR_HIDEOUT_B1F_ELECTRODE_2
 	return
 
 AquaHideout_B1F_EventScript_Electrode1::
@@ -41,12 +41,12 @@ AquaHideout_B1F_EventScript_Electrode1::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedElectrode1
-	setflag FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT
+	setflag FLAG_DEFEATED_ELECTRODE_1_CHOIR_HIDEOUT
 	release
 	end
 
 AquaHideout_B1F_EventScript_DefeatedElectrode1::
-	setflag FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT
+	setflag FLAG_DEFEATED_ELECTRODE_1_CHOIR_HIDEOUT
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
@@ -65,17 +65,17 @@ AquaHideout_B1F_EventScript_Electrode2::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AquaHideout_B1F_EventScript_DefeatedElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AquaHideout_B1F_EventScript_DefeatedElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AquaHideout_B1F_EventScript_DefeatedElectrode2
-	setflag FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT
+	setflag FLAG_DEFEATED_ELECTRODE_2_CHOIR_HIDEOUT
 	release
 	end
 
 AquaHideout_B1F_EventScript_DefeatedElectrode2::
-	setflag FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT
+	setflag FLAG_DEFEATED_ELECTRODE_2_CHOIR_HIDEOUT
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
 AquaHideout_B1F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_2, AquaHideout_B1F_Text_Grunt2Intro, AquaHideout_B1F_Text_Grunt2Defeat, AquaHideout_B1F_EventScript_Grunt2Defeated
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_2, AquaHideout_B1F_Text_Grunt2Intro, AquaHideout_B1F_Text_Grunt2Defeat, AquaHideout_B1F_EventScript_Grunt2Defeated
 	msgbox AquaHideout_B1F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -87,7 +87,7 @@ AquaHideout_B1F_EventScript_Grunt2Defeated::
 	end
 
 AquaHideout_B1F_EventScript_Grunt3::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_3, AquaHideout_B1F_Text_Grunt3Intro, AquaHideout_B1F_Text_Grunt3Defeat, AquaHideout_B1F_EventScript_Grunt3Defeated
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_3, AquaHideout_B1F_Text_Grunt3Intro, AquaHideout_B1F_Text_Grunt3Defeat, AquaHideout_B1F_EventScript_Grunt3Defeated
 	msgbox AquaHideout_B1F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -97,12 +97,12 @@ AquaHideout_B1F_EventScript_Grunt3Defeated::
 	end
 
 AquaHideout_B1F_EventScript_Grunt5::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_5, AquaHideout_B1F_Text_Grunt5Intro, AquaHideout_B1F_Text_Grunt5Defeat
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_5, AquaHideout_B1F_Text_Grunt5Intro, AquaHideout_B1F_Text_Grunt5Defeat
 	msgbox AquaHideout_B1F_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 AquaHideout_B1F_EventScript_Grunt7::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_7, AquaHideout_B1F_Text_Grunt7Intro, AquaHideout_B1F_Text_Grunt7Defeat
+	trainerbattle_single TRAINER_GRUNT_CHOIR_HIDEOUT_7, AquaHideout_B1F_Text_Grunt7Intro, AquaHideout_B1F_Text_Grunt7Defeat
 	msgbox AquaHideout_B1F_Text_Grunt7PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -144,13 +144,13 @@ AquaHideout_B1F_Text_Grunt5Defeat:
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
 	.string "If you scurry too much, other TEAM\n"
-	.string "AQUA members might get you.$"
+	.string "CHOIR members might get you.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
 	.string "Hey!\n"
 	.string "You there!\p"
 	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "TEAM CHOIR's uniform or TEAM VIGIL's?$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
 	.string "I lost in a cool way…$"

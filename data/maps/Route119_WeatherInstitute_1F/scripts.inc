@@ -118,14 +118,14 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string "we study the weather patterns over\l"
 	.string "the HOENN region.\p"
 	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "isolated cases of impossible fog,\l"
+	.string "and of daylight simply failing…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "Hello!\n"
 	.string "We've been saved by your actions!\p"
 	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "earth the CHOIRS were up to.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
 	.string "There's a bed…\n"

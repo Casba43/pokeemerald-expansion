@@ -150,7 +150,7 @@
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_1",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 44,
       "y": 23,
       "elevation": 5,
@@ -160,11 +160,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_2",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 44,
       "y": 24,
       "elevation": 5,
@@ -174,11 +174,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_3",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 44,
       "y": 25,
       "elevation": 5,
@@ -188,11 +188,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_4",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 44,
       "y": 26,
       "elevation": 5,
@@ -202,11 +202,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_MAXIE",
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
       "x": 45,
       "y": 25,
       "elevation": 5,
@@ -216,7 +216,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_VIGIL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",

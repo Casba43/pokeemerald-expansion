@@ -591,8 +591,8 @@ SlateportCity_EventScript_CaptStern::
 	removeobject LOCALID_SLATEPORT_CAPT_STERN
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
+	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CHOIR_GRUNT
+	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_THORNE
 	setvar VAR_SLATEPORT_CITY_STATE, 2
 	warp MAP_SLATEPORT_CITY_HARBOR, 11, 14
 	waitstate
@@ -1012,7 +1012,7 @@ SlateportCity_Text_QuitPushing:
 	.string "This is the line, can't you see?$"
 
 SlateportCity_Text_AquaHasPolicy:
-	.string "TEAM AQUA has a policy of\n"
+	.string "TEAM CHOIR has a policy of\n"
 	.string "assembling and dispersing at\l"
 	.string "the operation site.$"
 
@@ -1172,13 +1172,13 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string "Fufufu…\n"
 	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
+	.string "We of TEAM CHOIR will assume\n"
 	.string "control of your submarine!\p"
 	.string "Your objections are meaningless!\n"
 	.string "We expect your total cooperation!\p"
 	.string "Fufufu…\n"
 	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!$"
+	.string "CHOIR has planned!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
 	.string "CAPT. STERN: What was that all about?\p"
@@ -1313,7 +1313,7 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "I'm sure I met you somewhere before.\p"
 	.string "Have I introduced myself to you?\n"
 	.string "If not, my name's SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
+	.string "I just saw TEAM CHOIR run away from\n"
 	.string "here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
 

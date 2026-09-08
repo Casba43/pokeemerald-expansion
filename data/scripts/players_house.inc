@@ -138,9 +138,66 @@ PlayersHouse_2F_Movement_MomExitsFemale:
 	step_end
 
 PlayersHouse_1F_EventScript_SetWatchedBroadcast::
+	call PlayersHouse_1F_EventScript_YewPaysRespects
 	setvar VAR_LITTLEROOT_INTRO_STATE, 7
 	releaseall
 	end
+
+@ The new PETALBURG GYM LEADER calls on the family the same day her appointment
+@ is announced. The two houses are mirror images, so the door she comes through
+@ differs by gender.
+PlayersHouse_1F_EventScript_YewPaysRespects::
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, PlayersHouse_1F_EventScript_YewEnterMale
+	call_if_eq VAR_RESULT, FEMALE, PlayersHouse_1F_EventScript_YewEnterFemale
+	playse SE_DOOR
+	delay 30
+	applymovement LOCALID_PLAYERS_HOUSE_1F_YEW, PlayersHouse_1F_Movement_YewStepIn
+	waitmovement 0
+	msgbox PlayersHouse_1F_Text_YewAtTheDoor, MSGBOX_DEFAULT
+	closemessage
+	delay 20
+	msgbox PlayersHouse_1F_Text_YewPaysRespects, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PLAYERS_HOUSE_1F_YEW, PlayersHouse_1F_Movement_YewStepOut
+	waitmovement 0
+	playse SE_EXIT
+	removeobject LOCALID_PLAYERS_HOUSE_1F_YEW
+	delay 30
+	call_if_eq VAR_RESULT, MALE, PlayersHouse_1F_EventScript_YewRestorePosMale
+	call_if_eq VAR_RESULT, FEMALE, PlayersHouse_1F_EventScript_YewRestorePosFemale
+	return
+
+PlayersHouse_1F_EventScript_YewEnterMale::
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_YEW, 8, 8
+	addobject LOCALID_PLAYERS_HOUSE_1F_YEW
+	return
+
+PlayersHouse_1F_EventScript_YewEnterFemale::
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_YEW, 2, 8
+	addobject LOCALID_PLAYERS_HOUSE_1F_YEW
+	return
+
+@ Put the object back where the map placed it, so the later SS TICKET scene
+@ still finds it in the right spot.
+PlayersHouse_1F_EventScript_YewRestorePosMale::
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_YEW, 5, 6
+	return
+
+PlayersHouse_1F_EventScript_YewRestorePosFemale::
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_YEW, 5, 6
+	return
+
+PlayersHouse_1F_Movement_YewStepIn:
+	walk_up
+	walk_up
+	step_end
+
+PlayersHouse_1F_Movement_YewStepOut:
+	walk_down
+	walk_down
+	walk_in_place_faster_up
+	step_end
 
 PlayersHouse_1F_EventScript_PetalburgGymReportMale::
 	applymovement VAR_0x8005, Common_Movement_WalkInPlaceFasterRight
@@ -149,7 +206,7 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale::
 	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_PlayerApproachTVForGymMale
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_INTERVIEWER, FALSE
-	msgbox PlayersHouse_1F_Text_MaybeDadWillBeOn, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_MaybeYewWillBeOn, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomMakeRoomToSeeTVMale
 	waitmovement 0
@@ -174,7 +231,7 @@ PlayersHouse_1F_EventScript_PetalburgGymReportFemale::
 	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_PlayerApproachTVForGymFemale
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_INTERVIEWER, FALSE
-	msgbox PlayersHouse_1F_Text_MaybeDadWillBeOn, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_MaybeYewWillBeOn, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_0x8005, PlayersHouse_1F_Movement_MomMakeRoomToSeeTVFemale
 	waitmovement 0
@@ -212,7 +269,7 @@ PlayersHouse_1F_EventScript_WatchGymBroadcast::
 	delay 35
 	return
 
-PlayersHouse_1F_Movement_MomApproachDadMale:
+PlayersHouse_1F_Movement_MomApproachYewMale:
 	walk_up
 	walk_right
 	walk_right
@@ -222,7 +279,7 @@ PlayersHouse_1F_Movement_MomApproachDadMale:
 	walk_in_place_faster_right
 	step_end
 
-PlayersHouse_1F_Movement_MomApproachDadFemale:
+PlayersHouse_1F_Movement_MomApproachYewFemale:
 	walk_up
 	walk_left
 	walk_left
@@ -334,7 +391,7 @@ PlayersHouse_1F_EventScript_CheckGiveAmuletCoin::
 
 PlayersHouse_1F_EventScript_TryGiveAmuletCoin::
 	goto_if_set FLAG_RECEIVED_AMULET_COIN, PlayersHouse_1F_EventScript_MomHealsParty
-	msgbox PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_GotYewsBadgeHeresSomethingFromMom, MSGBOX_DEFAULT
 	giveitem ITEM_AMULET_COIN
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox PlayersHouse_1F_Text_DontPushYourselfTooHard, MSGBOX_DEFAULT
@@ -428,19 +485,19 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 	applymovement VAR_0x8009, Common_Movement_Delay48
 	waitmovement 0
 	delay 20
-	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_DadApproachPlayerMale
-	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_DadApproachPlayerFemale
+	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_YewApproachPlayerMale
+	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_YewApproachPlayerFemale
 	msgbox PlayersHouse_1F_Text_TicketFromBrineyCameForYou, MSGBOX_DEFAULT
 	giveitem ITEM_SS_TICKET
 	msgbox PlayersHouse_1F_Text_PortsInSlateportLilycove, MSGBOX_DEFAULT
 	closemessage
 	delay 20
-	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_MomApproachDadMale
-	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_MomApproachDadFemale
+	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_MomApproachYewMale
+	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_MomApproachYewFemale
 	msgbox PlayersHouse_1F_Text_BetterGetBackToGym, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_DadExitsMale
-	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_DadExitsFemale
+	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_YewExitsMale
+	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_YewExitsFemale
 	playse SE_DOOR
 	removeobject VAR_0x8009
 	setflag FLAG_RECEIVED_SS_TICKET
@@ -448,7 +505,7 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 	call_if_eq VAR_0x8008, MALE, PlayersHouse_1F_EventScript_MomApproachPlayerMale
 	call_if_eq VAR_0x8008, FEMALE, PlayersHouse_1F_EventScript_MomApproachPlayerFemale
 	delay 20
-	msgbox PlayersHouse_1F_Text_DadShouldStayLonger, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_YewShouldStayLonger, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_SYS_TV_LATIAS_LATIOS
 	special TurnOnTVScreen
@@ -485,51 +542,51 @@ PlayersHouse_1F_EventScript_AirLatiBroadcast::
 
 PlayersHouse_1F_EventScript_SetUpObjectEventVarsMale::
 	setvar VAR_0x8008, MALE
-	setvar VAR_0x8009, LOCALID_PLAYERS_HOUSE_1F_DAD
+	setvar VAR_0x8009, LOCALID_PLAYERS_HOUSE_1F_YEW
 	setvar VAR_0x800A, LOCALID_PLAYERS_HOUSE_1F_MOM
 	return
 
 PlayersHouse_1F_EventScript_SetUpObjectEventVarsFemale::
 	setvar VAR_0x8008, FEMALE
-	setvar VAR_0x8009, LOCALID_PLAYERS_HOUSE_1F_DAD
+	setvar VAR_0x8009, LOCALID_PLAYERS_HOUSE_1F_YEW
 	setvar VAR_0x800A, LOCALID_PLAYERS_HOUSE_1F_MOM
 	return
 
-PlayersHouse_1F_EventScript_DadApproachPlayerMale::
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadApproachPlayerMale
+PlayersHouse_1F_EventScript_YewApproachPlayerMale::
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewApproachPlayerMale
 	waitmovement 0
 	return
 
-PlayersHouse_1F_EventScript_DadApproachPlayerFemale::
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadApproachPlayerFemale
+PlayersHouse_1F_EventScript_YewApproachPlayerFemale::
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewApproachPlayerFemale
 	waitmovement 0
 	return
 
-PlayersHouse_1F_EventScript_MomApproachDadMale::
-	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomApproachDadMale
+PlayersHouse_1F_EventScript_MomApproachYewMale::
+	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomApproachYewMale
 	waitmovement 0
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadFaceMomMale
-	waitmovement 0
-	return
-
-PlayersHouse_1F_EventScript_MomApproachDadFemale::
-	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomApproachDadFemale
-	waitmovement 0
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadFaceMomFemale
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewFaceMomMale
 	waitmovement 0
 	return
 
-PlayersHouse_1F_EventScript_DadExitsMale::
-	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_MomAndPlayerWatchDadExit
-	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomAndPlayerWatchDadExit
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadExitsMale
+PlayersHouse_1F_EventScript_MomApproachYewFemale::
+	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomApproachYewFemale
+	waitmovement 0
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewFaceMomFemale
 	waitmovement 0
 	return
 
-PlayersHouse_1F_EventScript_DadExitsFemale::
-	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_MomAndPlayerWatchDadExit
-	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomAndPlayerWatchDadExit
-	applymovement VAR_0x8009, PlayersHouse_1F_Movement_DadExitsFemale
+PlayersHouse_1F_EventScript_YewExitsMale::
+	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_MomAndPlayerWatchYewExit
+	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomAndPlayerWatchYewExit
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewExitsMale
+	waitmovement 0
+	return
+
+PlayersHouse_1F_EventScript_YewExitsFemale::
+	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_MomAndPlayerWatchYewExit
+	applymovement VAR_0x800A, PlayersHouse_1F_Movement_MomAndPlayerWatchYewExit
+	applymovement VAR_0x8009, PlayersHouse_1F_Movement_YewExitsFemale
 	waitmovement 0
 	return
 
@@ -595,32 +652,32 @@ PlayersHouse_1F_EventScript_MomApproachPlayerAfterTVFemale::
 	waitmovement 0
 	return
 
-PlayersHouse_1F_Movement_DadApproachPlayerMale:
+PlayersHouse_1F_Movement_YewApproachPlayerMale:
 	walk_right
 	walk_right
 	step_end
 
-PlayersHouse_1F_Movement_DadApproachPlayerFemale:
+PlayersHouse_1F_Movement_YewApproachPlayerFemale:
 	walk_left
 	walk_left
 	step_end
 
-PlayersHouse_1F_Movement_DadFaceMomMale:
+PlayersHouse_1F_Movement_YewFaceMomMale:
 	face_left
 	step_end
 
-PlayersHouse_1F_Movement_DadFaceMomFemale:
+PlayersHouse_1F_Movement_YewFaceMomFemale:
 	face_right
 	step_end
 
-PlayersHouse_1F_Movement_DadExitsMale:
+PlayersHouse_1F_Movement_YewExitsMale:
 	walk_down
 	walk_right
 	walk_down
 	delay_8
 	step_end
 
-PlayersHouse_1F_Movement_DadExitsFemale:
+PlayersHouse_1F_Movement_YewExitsFemale:
 	walk_down
 	walk_left
 	walk_down
@@ -635,7 +692,7 @@ PlayersHouse_1F_Movement_PlayerEnterRoomMale:
 	walk_in_place_faster_left
 	step_end
 
-PlayersHouse_1F_Movement_MomAndPlayerWatchDadExit:
+PlayersHouse_1F_Movement_MomAndPlayerWatchYewExit:
 	delay_8
 	delay_16
 	delay_16
@@ -670,4 +727,9 @@ PlayersHouse_1F_Movement_PlayerApproachTVForLatiFemale:
 
 EventScript_RunningShoesManual::
 	msgbox PlayersHouse_1F_Text_RunningShoesManual, MSGBOX_SIGN
+	end
+
+@ The five POKé BALLS that came back off his belt. YEW kept only the youngest.
+PlayersHouse_1F_EventScript_FathersBalls::
+	msgbox PlayersHouse_1F_Text_FathersBalls, MSGBOX_SIGN
 	end

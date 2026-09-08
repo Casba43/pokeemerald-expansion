@@ -2,7 +2,7 @@ SeafloorCavern_Room3_MapScripts::
 	.byte 0
 
 SeafloorCavern_Room3_EventScript_Shelly::
-	trainerbattle_single TRAINER_SHELLY_SEAFLOOR_CAVERN, SeafloorCavern_Room3_Text_ShellyIntro, SeafloorCavern_Room3_Text_ShellyDefeat
+	trainerbattle_single TRAINER_LAUREL_SEAFLOOR_CAVERN, SeafloorCavern_Room3_Text_ShellyIntro, SeafloorCavern_Room3_Text_ShellyDefeat
 	msgbox SeafloorCavern_Room3_Text_ShellyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -31,7 +31,7 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 	.string "Ahahahaha!\n"
 	.string "You're so darn strong.\p"
 	.string "It's terribly disappointing that you're\n"
-	.string "not a TEAM AQUA member.\p"
+	.string "not a TEAM CHOIR member.\p"
 	.string "You could have enjoyed the fabulous\n"
 	.string "world our BOSS has promised as\l"
 	.string "one of us…$"

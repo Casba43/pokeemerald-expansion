@@ -47,38 +47,46 @@ Route102_Text_AllenPostBattle:
 	.string "I wish I would win soon…$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
+	.string "You came up the hill past the\n"
+	.string "graveyard, did you not?\p"
+	.string "Something followed you.$"
 
 Route102_Text_RickDefeated:
-	.string "Ow! Down and out!$"
+	.string "It has gone quiet now.$"
 
 Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "They are thicker this year than\n"
+	.string "last.\p"
+	.string "Ask the old man who keeps the\n"
+	.string "ground. He counts them.$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "I felt you coming before I saw you.\p"
+	.string "That is not a boast. It is the fog.\n"
+	.string "It carries things.$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "…I read that wrong.$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+	.string "There was no fog on this route when\n"
+	.string "I was small.\p"
+	.string "It came the same year the deaths\n"
+	.string "started. Make of that what you like.$"
 
 Route103_Text_DaisyIntro:
-	.string "Did you feel the tug of our\n"
-	.string "soul-soothing fragrance?$"
+	.string "I do not pick the flowers here any\n"
+	.string "more. I leave them.\p"
+	.string "Somebody is always needing them.$"
 
 Route103_Text_DaisyDefeated:
-	.string "You weren't led astray by our aroma…$"
+	.string "Take them, then. You have earned\n"
+	.string "a handful.$"
 
 Route103_Text_DaisyPostBattle:
-	.string "Aromatherapy is a form of mental\n"
-	.string "healing that works with fragrances.$"
+	.string "There is a new stone up at the\n"
+	.string "cemetery every few years now.\p"
+	.string "I used to know all the names.$"
 
 Route103_Text_AmyIntro:
 	.string "AMY: I'm AMY.\n"
@@ -234,16 +242,16 @@ Route103_Text_RhettPostBattle:
 	.string "like this?$"
 
 Route103_Text_MarcosIntro:
-	.string "Did my guitar's wailing draw you in?$"
+	.string "Quiet. Listen.\p"
+	.string "…No? Only me, then.$"
 
 Route103_Text_MarcosDefeated:
-	.string "My one-man show is ruined…$"
+	.string "You heard it that time.$"
 
 Route103_Text_MarcosPostBattle:
-	.string "I was playing my guitar where few\n"
-	.string "people were around, but a lot of fans\l"
-	.string "have gathered.\p"
-	.string "Heh, maybe I should turn pro.$"
+	.string "The north row hums. Stand at the\n"
+	.string "head of it and you will hear it.\p"
+	.string "I have stopped going up there.$"
 
 Route104_Text_GinaIntro:
 	.string "GINA: Okay, let's battle with our\n"

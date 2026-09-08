@@ -16,7 +16,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 13,
       "y": 11,
       "elevation": 3,
@@ -26,10 +26,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AquaHideout_1F_EventScript_HideoutEntranceGrunt1",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 14,
       "y": 11,
       "elevation": 3,
@@ -39,10 +39,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AquaHideout_1F_EventScript_HideoutEntranceGrunt2",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 20,
       "y": 4,
       "elevation": 3,
@@ -52,7 +52,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "AquaHideout_1F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS"
     }
   ],
   "warp_events": [

@@ -107,6 +107,18 @@ LittlerootTown_OnFrame:
 	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_BeginDexUpgradeScene
 	.2byte 0
 
+@ The track at the south edge of town leads back up to the cemetery.
+LittlerootTown_EventScript_EnterCemetery::
+	lockall
+	warp MAP_CEMETERY, 13, 20
+	waitstate
+	releaseall
+	end
+
+LittlerootTown_EventScript_CemeterySign::
+	msgbox LittlerootTown_Text_CemeterySign, MSGBOX_SIGN
+	end
+
 LittlerootTown_EventScript_StepOffTruckMale::
 	lockall
 	setvar VAR_0x8004, 5
@@ -904,17 +916,19 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	delay 30
 	return
 
+LittlerootTown_Text_CemeterySign:
+	.string "OLD CEMETERY, this way.\p"
+	.string "The paint is fresh. Someone has been\n"
+	.string "keeping the sign readable.$"
+
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+	.string "MOM: {PLAYER}!\p"
+	.string "You have been gone all morning.\p"
+	.string "…You went up to the cemetery again.\n"
+	.string "You do not have to tell me.\p"
+	.string "I went every day the first week.\p"
+	.string "Come inside out of this fog.\n"
+	.string "Please.$"
 
 LittlerootTown_Text_WaitPlayer:
 	.string "MOM: Wait, {PLAYER}!$"
@@ -947,7 +961,8 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
 	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
+	.string "He would not have stopped talking\l"
+	.string "about it.\p"
 	.string "…But please be careful.\n"
 	.string "If anything happens, you can come home.\p"
 	.string "Go on, go get them, honey!$"

@@ -2,22 +2,22 @@ MagmaHideout_2F_2R_MapScripts::
 	.byte 0
 
 MagmaHideout_2F_2R_EventScript_Grunt15::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_15, MagmaHideout_2F_2R_Text_Grunt15Intro, MagmaHideout_2F_2R_Text_Grunt15Defeat
+	trainerbattle_single TRAINER_GRUNT_VIGIL_HIDEOUT_15, MagmaHideout_2F_2R_Text_Grunt15Intro, MagmaHideout_2F_2R_Text_Grunt15Defeat
 	msgbox MagmaHideout_2F_2R_Text_Grunt15PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt6::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_6, MagmaHideout_2F_2R_Text_Grunt6Intro, MagmaHideout_2F_2R_Text_Grunt6Defeat
+	trainerbattle_single TRAINER_GRUNT_VIGIL_HIDEOUT_6, MagmaHideout_2F_2R_Text_Grunt6Intro, MagmaHideout_2F_2R_Text_Grunt6Defeat
 	msgbox MagmaHideout_2F_2R_Text_Grunt6PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt7::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_7, MagmaHideout_2F_2R_Text_Grunt7Intro, MagmaHideout_2F_2R_Text_Grunt7Defeat
+	trainerbattle_single TRAINER_GRUNT_VIGIL_HIDEOUT_7, MagmaHideout_2F_2R_Text_Grunt7Intro, MagmaHideout_2F_2R_Text_Grunt7Defeat
 	msgbox MagmaHideout_2F_2R_Text_Grunt7PostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt8::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_8, MagmaHideout_2F_2R_Text_Grunt8Intro, MagmaHideout_2F_2R_Text_Grunt8Defeat
+	trainerbattle_single TRAINER_GRUNT_VIGIL_HIDEOUT_8, MagmaHideout_2F_2R_Text_Grunt8Intro, MagmaHideout_2F_2R_Text_Grunt8Defeat
 	msgbox MagmaHideout_2F_2R_Text_Grunt8PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -30,17 +30,17 @@ MagmaHideout_2F_2R_Text_Grunt15Defeat:
 
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 	.string "We dug up something beyond belief!\n"
-	.string "And, we got the BLUE ORB!\p"
+	.string "And, we got the HOLLOW ORB!\p"
 	.string "All that's left is for our leader to…\n"
 	.string "Fufufu… Fwahahaha!$"
 
 MagmaHideout_2F_2R_Text_Grunt6Intro:
 	.string "I can't stand heat. Maybe I should've\n"
-	.string "joined TEAM AQUA instead…$"
+	.string "joined TEAM CHOIR instead…$"
 
 MagmaHideout_2F_2R_Text_Grunt6Defeat:
 	.string "Yeah, I really may not be right for\n"
-	.string "TEAM MAGMA…$"
+	.string "TEAM VIGIL…$"
 
 MagmaHideout_2F_2R_Text_Grunt6PostBattle:
 	.string "Don't you get lonely for the sea\n"
@@ -60,12 +60,12 @@ MagmaHideout_2F_2R_Text_Grunt7Defeat:
 MagmaHideout_2F_2R_Text_Grunt7PostBattle:
 	.string "You just happened to win this time,\n"
 	.string "but that doesn't matter.\p"
-	.string "TEAM MAGMA's goal is about to be\n"
+	.string "TEAM VIGIL's goal is about to be\n"
 	.string "reached!$"
 
 MagmaHideout_2F_2R_Text_Grunt8Intro:
 	.string "One of our guys was freaking out that\n"
-	.string "he lost his MAGMA EMBLEM…\p"
+	.string "he lost his VIGIL EMBLEM…\p"
 	.string "Wait a minute!\n"
 	.string "Was it you who found it?$"
 

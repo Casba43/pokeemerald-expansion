@@ -17,7 +17,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_AQUA_HIDEOUT_MATT",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 23,
       "y": 19,
       "elevation": 3,
@@ -27,10 +27,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AquaHideout_B2F_EventScript_Matt",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 23,
       "y": 10,
       "elevation": 3,
@@ -40,7 +40,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "AquaHideout_B2F_EventScript_Grunt4",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -53,7 +53,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_NEST_BALL",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_AQUA_HIDEOUT_B2F_NEST_BALL"
+      "flag": "FLAG_ITEM_CHOIR_HIDEOUT_B2F_NEST_BALL"
     },
     {
       "local_id": "LOCALID_AQUA_HIDEOUT_SUBMARINE",
@@ -67,10 +67,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_B2F_SUBMARINE_SHADOW"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 7,
       "y": 5,
       "elevation": 3,
@@ -80,10 +80,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "AquaHideout_B2F_EventScript_Grunt6",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 13,
       "y": 5,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "AquaHideout_B2F_EventScript_Grunt8",
-      "flag": "FLAG_HIDE_AQUA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_CHOIR_HIDEOUT_GRUNTS"
     }
   ],
   "warp_events": [

@@ -5111,13 +5111,13 @@ u16 GetBattleBGM(void)
 
         switch (trainerClass)
         {
-        case TRAINER_CLASS_AQUA_LEADER:
-        case TRAINER_CLASS_MAGMA_LEADER:
+        case TRAINER_CLASS_CHOIR_LEADER:
+        case TRAINER_CLASS_VIGIL_LEADER:
             return MUS_VS_AQUA_MAGMA_LEADER;
-        case TRAINER_CLASS_TEAM_AQUA:
-        case TRAINER_CLASS_TEAM_MAGMA:
-        case TRAINER_CLASS_AQUA_ADMIN:
-        case TRAINER_CLASS_MAGMA_ADMIN:
+        case TRAINER_CLASS_TEAM_CHOIR:
+        case TRAINER_CLASS_TEAM_VIGIL:
+        case TRAINER_CLASS_CHOIR_ADMIN:
+        case TRAINER_CLASS_VIGIL_ADMIN:
             return MUS_VS_AQUA_MAGMA;
         case TRAINER_CLASS_LEADER:
             return MUS_VS_GYM_LEADER;

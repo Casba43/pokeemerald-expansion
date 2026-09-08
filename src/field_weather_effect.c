@@ -2481,25 +2481,24 @@ static void CreateAbnormalWeatherTask(void)
     u8 taskId = CreateTask(Task_DoAbnormalWeather, 0);
     s16 *data = gTasks[taskId].data;
 
+    // The crisis alternates between GIRATINA's fog and DARKRAI's darkness
+    // rather than drought and downpour.
     tDelay = 600;
-    if (sCurrentAbnormalWeather == WEATHER_DOWNPOUR)
+    if (sCurrentAbnormalWeather == WEATHER_SHADE)
     {
-        // Currently Downpour, next will be Drought
-        tWeatherA = WEATHER_DROUGHT;
-        tWeatherB = WEATHER_DOWNPOUR;
+        tWeatherA = WEATHER_FOG_HORIZONTAL;
+        tWeatherB = WEATHER_SHADE;
     }
-    else if (sCurrentAbnormalWeather == WEATHER_DROUGHT)
+    else if (sCurrentAbnormalWeather == WEATHER_FOG_HORIZONTAL)
     {
-        // Currently Drought, next will be Downpour
-        tWeatherA = WEATHER_DOWNPOUR;
-        tWeatherB = WEATHER_DROUGHT;
+        tWeatherA = WEATHER_SHADE;
+        tWeatherB = WEATHER_FOG_HORIZONTAL;
     }
     else
     {
-        // Default to starting with Downpour
-        sCurrentAbnormalWeather = WEATHER_DOWNPOUR;
-        tWeatherA = WEATHER_DROUGHT;
-        tWeatherB = WEATHER_DOWNPOUR;
+        sCurrentAbnormalWeather = WEATHER_SHADE;
+        tWeatherA = WEATHER_FOG_HORIZONTAL;
+        tWeatherB = WEATHER_SHADE;
     }
 }
 
@@ -2551,7 +2550,7 @@ void DoCurrentWeather(void)
     {
         if (FuncIsActiveTask(Task_DoAbnormalWeather))
             DestroyTask(FindTaskIdByFunc(Task_DoAbnormalWeather));
-        sCurrentAbnormalWeather = WEATHER_DOWNPOUR;
+        sCurrentAbnormalWeather = WEATHER_SHADE;
     }
     SetNextWeather(weather);
 }
@@ -2570,7 +2569,7 @@ void ResumePausedWeather(void)
     {
         if (FuncIsActiveTask(Task_DoAbnormalWeather))
             DestroyTask(FindTaskIdByFunc(Task_DoAbnormalWeather));
-        sCurrentAbnormalWeather = WEATHER_DOWNPOUR;
+        sCurrentAbnormalWeather = WEATHER_SHADE;
     }
     SetCurrentAndNextWeather(weather);
 }

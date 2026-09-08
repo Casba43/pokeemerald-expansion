@@ -31,7 +31,7 @@
     },
     {
       "local_id": "LOCALID_SEAFLOOR_CAVERN_ARCHIE",
-      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
       "x": 9,
       "y": 42,
       "elevation": 3,
@@ -41,11 +41,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE"
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_THORNE"
     },
     {
       "local_id": "LOCALID_SEAFLOOR_CAVERN_MAXIE",
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
       "x": 9,
       "y": 42,
       "elevation": 3,
@@ -55,11 +55,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE"
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_RUE"
     },
     {
       "local_id": "LOCALID_SEAFLOOR_CAVERN_GRUNT_1",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 8,
       "y": 41,
       "elevation": 3,
@@ -69,11 +69,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS"
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_VIGIL_GRUNTS"
     },
     {
       "local_id": "LOCALID_SEAFLOOR_CAVERN_GRUNT_2",
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 8,
       "y": 42,
       "elevation": 3,
@@ -83,7 +83,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS"
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_VIGIL_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",

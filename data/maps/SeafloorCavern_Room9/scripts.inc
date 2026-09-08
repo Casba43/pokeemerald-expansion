@@ -26,7 +26,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat
+	trainerbattle_no_intro TRAINER_THORNE, SeafloorCavern_Room9_Text_ArchieDefeat
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 	setweather WEATHER_NONE
 	doweather
@@ -115,25 +115,25 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	setvar VAR_ROUTE128_STATE, 1
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 1
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_THORNE
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RUE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
-	clearflag FLAG_HIDE_ROUTE_128_ARCHIE
-	clearflag FLAG_HIDE_ROUTE_128_MAXIE
+	clearflag FLAG_HIDE_ROUTE_128_THORNE
+	clearflag FLAG_HIDE_ROUTE_128_RUE
 	setflag FLAG_SYS_WEATHER_CTRL
 	setflag FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
 	setvar VAR_STEVENS_HOUSE_STATE, 2
 	setvar VAR_SEAFLOOR_CAVERN_STATE, 1
-	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
-	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
-	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_THORNE
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_RUE
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_VIGIL_GRUNTS
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE
-	setflag FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_CHOIR_GRUNTS
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	warp MAP_ROUTE128, 38, 22
 	waitstate
@@ -216,59 +216,64 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "ARCHIE: Hold it right there.$"
+	.string "THORNE: Hold it right there.$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "ARCHIE: Fufufu…\n"
+	.string "THORNE: Fufufu…\n"
 	.string "So it was you, after all.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHIE: Behold!\p"
-	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient POKéMON KYOGRE!\p"
-	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "THORNE: Behold.\p"
+	.string "The thing that has been taking them.\n"
+	.string "DARKRAI.\p"
+	.string "It does not maul. It does not mark.\n"
+	.string "It simply puts them to sleep.\p"
+	.string "Four in six years, and your father\n"
+	.string "the last of them.\p"
+	.string "I did not set it on him. But I knew,\n"
+	.string "and I signed the paperwork.$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "ARCHIE: It surprises me, how you've\n"
-	.string "managed to chase me here.\p"
-	.string "But that's all over now.\p"
-	.string "For the realization of my dream,\n"
-	.string "you must disappear now!$"
+	.string "THORNE: It surprises me that you\n"
+	.string "chased me this far.\p"
+	.string "It should not. You are his.\p"
+	.string "I will not have a child undo forty\n"
+	.string "years of quiet.\p"
+	.string "Sleep, like he did!$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat:
 	.string "What?!\n"
 	.string "I lost to a mere child like you?!$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "ARCHIE: Fufufu…\p"
+	.string "THORNE: Fufufu…\p"
 	.string "I commend you. I must recognize that\n"
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this NIGHT ORB, I can make DARKRAI…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
+	.string "The NIGHT ORB suddenly began shining\n"
 	.string "by itself!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "ARCHIE: What?!\p"
+	.string "THORNE: What?!\p"
 	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "Why did the NIGHT ORB…\p"
+	.string "Where did DARKRAI go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
+	.string "THORNE: Hm? It's a message from our\n"
 	.string "members outside…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHIE: Yes, what is it?\p"
+	.string "THORNE: Yes, what is it?\p"
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
 	.string "Good… That should have happened.\n"
-	.string "That is why we awakened KYOGRE,\l"
-	.string "to realize TEAM AQUA's vision of\l"
+	.string "That is why we awakened DARKRAI,\l"
+	.string "to realize TEAM CHOIR's vision of\l"
 	.string "expanding the sea.\p"
 	.string "What?!\p"
 	.string "It's raining far harder than we\n"
@@ -279,38 +284,38 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "the situation!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
-	.string "and control KYOGRE…\p"
+	.string "THORNE: There's something wrong…\p"
+	.string "The NIGHT ORB is supposed to awaken\n"
+	.string "and control DARKRAI…\p"
 	.string "But… Why?\n"
-	.string "Why did KYOGRE disappear?\p"
+	.string "Why did DARKRAI disappear?\p"
 	.string "Why?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken KYOGRE,\n"
+	.string "RUE: What have you wrought?\p"
+	.string "THORNE… You've finally awoken DARKRAI,\n"
 	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "What happens if nobody wakes up\n"
+	.string "again? Ever?\p"
+	.string "You have not opened a door. You have\n"
+	.string "put out the light.$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "ARCHIE: W-what?!\n"
+	.string "THORNE: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
-	.string "I should be able to control KYOGRE…\p"
+	.string "Wasn't it you, TEAM VIGIL, that\n"
+	.string "infuriated GIRATINA?\p"
+	.string "So long as I have this NIGHT ORB,\n"
+	.string "I should be able to control DARKRAI…\p"
 	.string "I should be able to control it…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "MAXIE: We don't have the time to\n"
+	.string "RUE: We don't have the time to\n"
 	.string "argue about it here!\p"
 	.string "Get outside and see for yourself!\p"
 	.string "See if what you've wrought is the\n"
 	.string "world that we desired!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
+	.string "RUE: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"

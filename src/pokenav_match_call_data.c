@@ -191,32 +191,32 @@ static const struct MatchCallStructNPC sMrStoneMatchCallHeader =
         { MatchCall_Text_MrStone5,  FLAG_RECEIVED_HM_STRENGTH,           NO_FLAG_TO_SET },
         { MatchCall_Text_MrStone6,  FLAG_DEFEATED_PETALBURG_GYM,         NO_FLAG_TO_SET },
         { MatchCall_Text_MrStone7,  FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
-        { MatchCall_Text_MrStone8,  FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, NO_FLAG_TO_SET },
-        { MatchCall_Text_MrStone9,  FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
+        { MatchCall_Text_MrStone8,  FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT, NO_FLAG_TO_SET },
+        { MatchCall_Text_MrStone9,  FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
         { MatchCall_Text_MrStone10, FLAG_DEFEATED_SOOTOPOLIS_GYM,        NO_FLAG_TO_SET },
         { MatchCall_Text_MrStone11, FLAG_SYS_GAME_CLEAR,                 NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
     }
 };
 
-static const struct MatchCallStructTrainer sNormanMatchCallHeader =
+static const struct MatchCallStructTrainer sYewMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_PETALBURG_CITY,
-    .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
-    .rematchTableIdx = REMATCH_NORMAN,
-    .desc = COMPOUND_STRING("RELIABLE ONE"),
-    .name = COMPOUND_STRING("DAD"),
+    .flag = FLAG_ENABLE_YEW_MATCH_CALL,
+    .rematchTableIdx = REMATCH_YEW,
+    .desc = COMPOUND_STRING("THE MOURNER"),
+    .name = COMPOUND_STRING("YEW"),
     .textData = (const match_call_text_data_t[]) {
-        { MatchCall_Text_Norman1,                  FLAG_ENABLE_NORMAN_MATCH_CALL, NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman2,                  FLAG_DEFEATED_DEWFORD_GYM,     NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman3,                  FLAG_DEFEATED_LAVARIDGE_GYM,   NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman4,                  FLAG_DEFEATED_PETALBURG_GYM,   NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman5,                  FLAG_RECEIVED_RED_OR_BLUE_ORB, NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_Preparing,         REMATCH_CALL_START,            NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_PreparingPostGame, FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_RematchReady,      FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_PostRematch,       FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew1,                  FLAG_ENABLE_YEW_MATCH_CALL, NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew2,                  FLAG_DEFEATED_DEWFORD_GYM,     NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew3,                  FLAG_DEFEATED_LAVARIDGE_GYM,   NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew4,                  FLAG_DEFEATED_PETALBURG_GYM,   NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew5,                  FLAG_RECEIVED_RED_OR_BLUE_ORB, NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew_Preparing,         REMATCH_CALL_START,            NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew_PreparingPostGame, FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew_RematchReady,      FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_Yew_PostRematch,       FLAG_SYS_GAME_CLEAR,           NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
     }
 };
@@ -263,7 +263,7 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
         { MatchCall_Text_Steven1, ALWAYS_AVAILABLE,                    NO_FLAG_TO_SET },
         { MatchCall_Text_Steven2, FLAG_RUSTURF_TUNNEL_OPENED,          NO_FLAG_TO_SET },
         { MatchCall_Text_Steven3, FLAG_RECEIVED_RED_OR_BLUE_ORB,       NO_FLAG_TO_SET },
-        { MatchCall_Text_Steven4, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
+        { MatchCall_Text_Steven4, FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
         { MatchCall_Text_Steven5, FLAG_DEFEATED_MOSSDEEP_GYM,          NO_FLAG_TO_SET },
         { MatchCall_Text_Steven6, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, NO_FLAG_TO_SET },
         { MatchCall_Text_Steven7, FLAG_SYS_GAME_CLEAR,                 NO_FLAG_TO_SET },
@@ -290,9 +290,9 @@ static const struct MatchCallRival sMayMatchCallHeader =
         { MatchCall_Text_May7,  FLAG_DEFEATED_PETALBURG_GYM,         NO_FLAG_TO_SET },
         { MatchCall_Text_May8,  FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
         { MatchCall_Text_May9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       NO_FLAG_TO_SET },
-        { MatchCall_Text_May10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, NO_FLAG_TO_SET },
-        { MatchCall_Text_May11, FLAG_MET_TEAM_AQUA_HARBOR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_May12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
+        { MatchCall_Text_May10, FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT, NO_FLAG_TO_SET },
+        { MatchCall_Text_May11, FLAG_MET_TEAM_CHOIR_HARBOR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_May12, FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
         { MatchCall_Text_May13, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, NO_FLAG_TO_SET },
         { MatchCall_Text_May14, FLAG_DEFEATED_SOOTOPOLIS_GYM,        NO_FLAG_TO_SET },
         { MatchCall_Text_May15, FLAG_SYS_GAME_CLEAR,                 NO_FLAG_TO_SET },
@@ -317,9 +317,9 @@ static const struct MatchCallRival sBrendanMatchCallHeader =
         { MatchCall_Text_Brendan7,  FLAG_DEFEATED_PETALBURG_GYM,         NO_FLAG_TO_SET },
         { MatchCall_Text_Brendan8,  FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
         { MatchCall_Text_Brendan9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       NO_FLAG_TO_SET },
-        { MatchCall_Text_Brendan10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, NO_FLAG_TO_SET },
-        { MatchCall_Text_Brendan11, FLAG_MET_TEAM_AQUA_HARBOR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_Brendan12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
+        { MatchCall_Text_Brendan10, FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT, NO_FLAG_TO_SET },
+        { MatchCall_Text_Brendan11, FLAG_MET_TEAM_CHOIR_HARBOR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_Brendan12, FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
         { MatchCall_Text_Brendan13, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, NO_FLAG_TO_SET },
         { MatchCall_Text_Brendan14, FLAG_DEFEATED_SOOTOPOLIS_GYM,        NO_FLAG_TO_SET },
         { MatchCall_Text_Brendan15, FLAG_SYS_GAME_CLEAR,                 NO_FLAG_TO_SET },
@@ -339,14 +339,14 @@ static const struct MatchCallWally sWallyMatchCallHeader =
         { MatchCall_Text_Wally2, FLAG_RUSTURF_TUNNEL_OPENED,          NO_FLAG_TO_SET },
         { MatchCall_Text_Wally3, FLAG_DEFEATED_LAVARIDGE_GYM,         NO_FLAG_TO_SET },
         { MatchCall_Text_Wally4, FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
-        { MatchCall_Text_Wally5, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, NO_FLAG_TO_SET },
+        { MatchCall_Text_Wally5, FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT, NO_FLAG_TO_SET },
         { MatchCall_Text_Wally6, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, NO_FLAG_TO_SET },
         { MatchCall_Text_Wally7, FLAG_DEFEATED_WALLY_VICTORY_ROAD,    NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
     },
     .locationData = (const struct MatchCallLocationOverride[]) {
         { FLAG_HIDE_MAUVILLE_CITY_WALLY,          MAPSEC_VERDANTURF_TOWN },
-        { FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT,    MAPSEC_NONE },
+        { FLAG_GROUDON_AWAKENED_VIGIL_HIDEOUT,    MAPSEC_NONE },
         { FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY,  MAPSEC_VICTORY_ROAD },
         { ALWAYS_AVAILABLE,                       MAPSEC_NONE }
     }
@@ -364,7 +364,7 @@ static const struct MatchCallStructNPC sScottMatchCallHeader =
         { MatchCall_Text_Scott2, FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY,  NO_FLAG_TO_SET },
         { MatchCall_Text_Scott3, FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
         { MatchCall_Text_Scott4, FLAG_RECEIVED_RED_OR_BLUE_ORB,       NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott5, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
+        { MatchCall_Text_Scott5, FLAG_TEAM_CHOIR_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
         { MatchCall_Text_Scott6, FLAG_DEFEATED_SOOTOPOLIS_GYM,        NO_FLAG_TO_SET },
         { MatchCall_Text_Scott7, FLAG_SYS_GAME_CLEAR,                 NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
@@ -428,7 +428,7 @@ static const struct MatchCallStructTrainer sFlanneryMatchCallHeader =
     .mapSec = MAPSEC_LAVARIDGE_TOWN,
     .flag = FLAG_ENABLE_FLANNERY_MATCH_CALL,
     .rematchTableIdx = REMATCH_FLANNERY,
-    .desc = COMPOUND_STRING("PASSION BURN"),
+    .desc = COMPOUND_STRING("FLAME KEEPER"),
     .name = NULL,
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Flannery_Preparing,         REMATCH_CALL_START,  NO_FLAG_TO_SET },
@@ -445,7 +445,7 @@ static const struct MatchCallStructTrainer sWinonaMatchCallHeader =
     .mapSec = MAPSEC_FORTREE_CITY,
     .flag = FLAG_ENABLE_WINONA_MATCH_CALL,
     .rematchTableIdx = REMATCH_WINONA,
-    .desc = COMPOUND_STRING("SKY TAMER"),
+    .desc = COMPOUND_STRING("THE WATCHER"),
     .name = NULL,
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Winona_Preparing,         REMATCH_CALL_START,  NO_FLAG_TO_SET },
@@ -568,7 +568,7 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_BRENDAN]    = {.rival  = &sBrendanMatchCallHeader},
     [MC_HEADER_MAY]        = {.rival  = &sMayMatchCallHeader},
     [MC_HEADER_WALLY]      = {.wally  = &sWallyMatchCallHeader},
-    [MC_HEADER_NORMAN]     = {.leader = &sNormanMatchCallHeader},
+    [MC_HEADER_YEW]     = {.leader = &sYewMatchCallHeader},
     [MC_HEADER_MOM]        = {.npc    = &sMomMatchCallHeader},
     [MC_HEADER_STEVEN]     = {.npc    = &sStevenMatchCallHeader},
     [MC_HEADER_SCOTT]      = {.npc    = &sScottMatchCallHeader},

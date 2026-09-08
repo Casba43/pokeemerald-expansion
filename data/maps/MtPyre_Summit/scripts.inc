@@ -47,8 +47,8 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_2
 	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_3
 	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_4
-	setflag FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE
-	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA
+	setflag FLAG_HIDE_MT_PYRE_SUMMIT_THORNE
+	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_CHOIR
 	fadedefaultbgm
 	fadescreenswapbuffers FADE_FROM_BLACK
 	delay 20
@@ -59,7 +59,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	msgbox MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis, MSGBOX_DEFAULT
 	giveitem ITEM_MAGMA_EMBLEM
 	setflag FLAG_RECEIVED_RED_OR_BLUE_ORB
-	setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+	setflag FLAG_HIDE_JAGGED_PASS_VIGIL_GUARD
 	releaseall
 	end
 
@@ -125,7 +125,7 @@ MtPyre_Summit_Movement_ArchieFacePlayer2:
 MtPyre_Summit_EventScript_OldMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, MtPyre_Summit_EventScript_OldManAfterRayquaza
+	goto_if_set FLAG_SOOTOPOLIS_THORNE_RUE_LEAVE, MtPyre_Summit_EventScript_OldManAfterRayquaza
 	msgbox MtPyre_Summit_Text_WillYouHearOutMyTale, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_OldManTale
 	call_if_eq VAR_RESULT, NO, MtPyre_Summit_EventScript_DeclineOldManTale
@@ -422,12 +422,12 @@ MtPyre_Summit_EventScript_Grunt4::
 	end
 
 MtPyre_Summit_Text_Grunt1Intro:
-	.string "No! Those TEAM MAGMA goons got\n"
+	.string "No! Those TEAM VIGIL goons got\n"
 	.string "here ahead of us!\p"
 	.string "We can't fall behind!$"
 
 MtPyre_Summit_Text_Grunt1Defeat:
-	.string "I thought you were one of the MAGMAS\n"
+	.string "I thought you were one of the VIGILS\n"
 	.string "who happened to come back…$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
@@ -438,13 +438,13 @@ MtPyre_Summit_Text_Grunt2Intro:
 	.string "Hah!\n"
 	.string "Too bad for you!\p"
 	.string "If you came earlier, you only would've\n"
-	.string "had to battle the wimpy TEAM MAGMA.\p"
+	.string "had to battle the wimpy TEAM VIGIL.\p"
 	.string "But since you arrived now, you have\n"
 	.string "to take on us toughies!$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
 	.string "Urgh… I should've let you take on\n"
-	.string "TEAM MAGMA first…$"
+	.string "TEAM VIGIL first…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
 	.string "You don't know anything!\n"
@@ -458,7 +458,7 @@ MtPyre_Summit_Text_Grunt3Intro:
 
 MtPyre_Summit_Text_Grunt3Defeat:
 	.string "If you're going to mess with anyone,\n"
-	.string "let it be TEAM MAGMA…$"
+	.string "let it be TEAM VIGIL…$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
 	.string "Heh, it doesn't matter!\n"
@@ -468,13 +468,13 @@ MtPyre_Summit_Text_Grunt3PostBattle:
 
 MtPyre_Summit_Text_Grunt4Intro:
 	.string "Oh, I know!\n"
-	.string "You tried to join TEAM MAGMA,\l"
+	.string "You tried to join TEAM VIGIL,\l"
 	.string "but they wouldn't have you!\p"
 	.string "Well, don't think that we'll let you\n"
-	.string "join our TEAM AQUA!$"
+	.string "join our TEAM CHOIR!$"
 
 MtPyre_Summit_Text_Grunt4Defeat:
-	.string "If you want to join TEAM AQUA that\n"
+	.string "If you want to join TEAM CHOIR that\n"
 	.string "badly, we can consider it…$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
@@ -482,28 +482,30 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "with us members and our leader.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
+	.string "THORNE: TEAM VIGIL's RUE got ahead\n"
+	.string "of us, but we got what we came for.\p"
+	.string "This whole mountain is a grave, and\n"
+	.string "they left the key sitting on it.\p"
+	.string "…You. You have your father's face.\p"
+	.string "He came up here too, you know.\n"
+	.string "Asking the same questions.\p"
+	.string "Look how that ended for him.\p"
 	.string "Okay, TEAM!\n"
 	.string "We're pulling out!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, no…\n"
 	.string "This cannot happen…\p"
-	.string "Not only the BLUE ORB, but even\n"
-	.string "the RED ORB has been taken…\p"
-	.string "The BLUE ORB and RED ORB must never\n"
+	.string "Not only the HOLLOW ORB, but even\n"
+	.string "the NIGHT ORB has been taken…\p"
+	.string "The HOLLOW ORB and NIGHT ORB must never\n"
 	.string "be separated. They belong together.\p"
 	.string "What are those men trying to do with\n"
 	.string "the two ORBS?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Oh, yes. Was it TEAM MAGMA who came\n"
-	.string "and took the BLUE ORB first?\p"
+	.string "Oh, yes. Was it TEAM VIGIL who came\n"
+	.string "and took the HOLLOW ORB first?\p"
 	.string "Well, in their haste, they left this\n"
 	.string "behind.\p"
 	.string "I couldn't imagine what exactly it\n"
@@ -512,17 +514,17 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Perhaps it will be useful in some way.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
-	.string "The BLUE ORB and RED ORB taken by\n"
+	.string "The HOLLOW ORB and NIGHT ORB taken by\n"
 	.string "those sinister men…\p"
 	.string "They must never be apart…\n"
 	.string "I fear something terrible will happen…$"
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and KYOGRE\n"
+	.string "You say that both GIRATINA and DARKRAI\n"
 	.string "have been awakened?\p"
-	.string "It is said that the BLUE ORB and\n"
-	.string "the RED ORB quelled the rage of\l"
+	.string "It is said that the HOLLOW ORB and\n"
+	.string "the NIGHT ORB quelled the rage of\l"
 	.string "the two POKéMON…\p"
 	.string "It is also said that the true owner\n"
 	.string "of the ORBS still exists.\p"
@@ -538,16 +540,15 @@ MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
 	.string "Perhaps they are not so evil after all…$"
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
-	.string "The embodiments of the land, sea,\n"
-	.string "and the sky…\p"
+	.string "One to keep the door, one to keep\n"
+	.string "the sleepers, one to keep the\l"
+	.string "balance between them…\p"
 	.string "That is said to be the identities of\n"
-	.string "the super-ancient POKéMON…\p"
-	.string "In the same way that we humans and\n"
-	.string "POKéMON have life, our world, too,\l"
-	.string "is alive…\p"
-	.string "The super-ancient POKéMON have\n"
-	.string "taught us that…$"
-
+	.string "the sealed POKéMON…\p"
+	.string "Our world has a far side, child, the\n"
+	.string "way a coin does.\p"
+	.string "The sealed ones are what stands\n"
+	.string "between. That is all they ever were…$"
 MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "MT. PYRE is where we calm the spirits\n"
 	.string "of POKéMON that have passed on…\p"
@@ -571,7 +572,7 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "Their fierce duel raged without end.\p"
 	.string "The world was engulfed in massive\n"
 	.string "infernos and vicious storms.\p"
-	.string "The BLUE ORB and the RED ORB brought\n"
+	.string "The HOLLOW ORB and the NIGHT ORB brought\n"
 	.string "an end to the calamity.\p"
 	.string "Light poured from the two ORBS and\n"
 	.string "becalmed the enraged adversaries.\p"
@@ -584,7 +585,7 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "Well, that, too, is fine…$"
 
 MtPyre_Summit_Text_MaxieSilence:
-	.string "MAXIE: {PLAYER}…\p"
+	.string "RUE: {PLAYER}…\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
