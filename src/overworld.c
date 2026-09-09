@@ -1938,10 +1938,11 @@ void CB2_NewGame(void)
     PlayTimeCounter_Start();
     ScriptContext_Init();
     UnlockPlayerFieldControls();
-    if (IS_FRLG)
-        gFieldCallback = FieldCB_WarpExitFadeFromBlack;
-    else
-        gFieldCallback = ExecuteTruckSequence;
+    // A new game starts at the cemetery, not in the back of a moving truck, so
+    // the truck sequence must not run: besides the camera shake and engine SFX
+    // it stamps InsideOfTruck door metatiles into the map grid and holds player
+    // control for ~13 seconds.
+    gFieldCallback = FieldCB_WarpExitFadeFromBlack;
     gFieldCallback2 = NULL;
     DoMapLoadLoop(&gMain.state);
     SetFieldVBlankCallback();
