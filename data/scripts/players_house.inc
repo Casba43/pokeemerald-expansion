@@ -359,6 +359,9 @@ PlayersHouse_1F_EventScript_Mom::
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 4, PlayersHouse_1F_EventScript_DontPushYourselfTooHard
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, PlayersHouse_1F_EventScript_DontPushYourselfTooHard
 	goto_if_set FLAG_HAS_MATCH_CALL, PlayersHouse_1F_EventScript_TryRegisterMom
+	@ FLAG_RESCUED_BIRCH is set from the very start of this game, so Mom used to
+	@ jump straight to healing and never told the player where to go next.
+	goto_if_lt VAR_BIRCH_LAB_STATE, 3, PlayersHouse_1F_EventScript_MomPointToLab
 	goto_if_set FLAG_RESCUED_BIRCH, PlayersHouse_1F_EventScript_MomHealsParty
 	goto_if_eq VAR_TEMP_1, 1, PlayersHouse_1F_EventScript_SeeYouHoney
 	goto_if_eq VAR_LITTLEROOT_INTRO_STATE, 7, PlayersHouse_1F_EventScript_DidYouMeetProfBirch
@@ -397,6 +400,11 @@ PlayersHouse_1F_EventScript_TryGiveAmuletCoin::
 	msgbox PlayersHouse_1F_Text_DontPushYourselfTooHard, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_AMULET_COIN
 	release
+	end
+
+PlayersHouse_1F_EventScript_MomPointToLab::
+	msgbox PlayersHouse_1F_Text_MomPointToLab, MSGBOX_DEFAULT
+	goto PlayersHouse_1F_EventScript_HealParty
 	end
 
 PlayersHouse_1F_EventScript_MomHealsParty::

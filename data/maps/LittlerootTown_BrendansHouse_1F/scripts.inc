@@ -361,6 +361,17 @@ PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "MOM: Did you introduce yourself to\n"
 	.string "PROF. BIRCH?$"
 
+PlayersHouse_1F_Text_MomPointToLab:
+	.string "You have a POKéMON with you.\p"
+	.string "I am not going to ask where it came\n"
+	.string "from. Not today.\p"
+	.string "PROF. BIRCH is at his LAB at the end\n"
+	.string "of the road. Go and see him.\p"
+	.string "He knew your father. He will know\n"
+	.string "what to do with you.\p"
+	.string "Here, let me see to your POKéMON\n"
+	.string "before you go.$"
+
 PlayersHouse_1F_Text_YouShouldRestABit:
 	.string "MOM: How are you doing, {PLAYER}?\n"
 	.string "You look a little tired.\p"
