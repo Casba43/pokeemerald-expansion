@@ -120,6 +120,16 @@ Cemetery_EventScript_SyncStoryState::
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
 	setvar VAR_ROUTE101_STATE, 3
 	setvar VAR_BIRCH_LAB_STATE, 2
+	@ Littleroot's north exit has coord events for VAR_LITTLEROOT_TOWN_STATE 0
+	@ ("you need a POKéMON") and 1 ("go see what is happening"). Both order the
+	@ Twin to walk over and push the player back, but she is only moved to the
+	@ exit by SetTwinPos, which is skipped once FLAG_RESCUED_BIRCH is set. The
+	@ result was an invisible NPC blocking the way out of town, so put the town
+	@ past every one of those gates.
+	setvar VAR_LITTLEROOT_TOWN_STATE, 4
+	@ State 4 means the running shoes were already given, and that scene needs
+	@ Mom outside for a moment that no longer happens, so grant them here.
+	setflag FLAG_SYS_B_DASH
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Cemetery_EventScript_HideMayInBedroom
 	call_if_eq VAR_RESULT, FEMALE, Cemetery_EventScript_HideBrendanInBedroom

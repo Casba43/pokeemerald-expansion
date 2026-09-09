@@ -71,7 +71,15 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
-	setvar VAR_LITTLEROOT_TOWN_STATE, 1
+	@ The rival's template position is the stairs tile, which is fine while the
+	@ scene walks them off it, but OnTransition only relocates them permanently
+	@ when VAR_BIRCH_LAB_STATE < 2. This game starts that var at 2, so re-enter
+	@ the room and the rival respawns on the stairs and seals the player in.
+	@ Relocate here instead, where it cannot be skipped.
+	setobjectxyperm LOCALID_RIVALS_HOUSE_2F_RIVAL, 8, 2
+	setobjectmovementtype LOCALID_RIVALS_HOUSE_2F_RIVAL, MOVEMENT_TYPE_FACE_UP
+	@ Was 1, which re-armed Littleroot's "go save BIRCH" exit trigger.
+	setvar VAR_LITTLEROOT_TOWN_STATE, 4
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	releaseall
