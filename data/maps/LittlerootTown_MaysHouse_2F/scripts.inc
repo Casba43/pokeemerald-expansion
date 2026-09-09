@@ -12,8 +12,12 @@ LittlerootTown_MaysHouse_2F_OnTransition:
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_CheckShouldUpdateMayPos::
-	goto_if_set FLAG_MET_RIVAL_LILYCOVE, LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos
-	goto_if_ge VAR_BIRCH_LAB_STATE, 2, LittlerootTown_MaysHouse_2F_EventScript_Ret
+	@ A "goto_if_ge VAR_BIRCH_LAB_STATE, 2 -> Ret" used to sit here and skip the
+	@ reposition below. Vanilla can afford that because by the time the lab state
+	@ advances the rival is hidden from this room, but this game starts that var
+	@ at 2, so the rival kept spawning on her template tile -- which is the stairs
+	@ -- and sealed the player in. Repositioning is harmless while she is hidden,
+	@ so just always do it.
 	goto LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos
 
 LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos::
@@ -71,13 +75,6 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
-	@ The rival's template position is the stairs tile, which is fine while the
-	@ scene walks them off it, but OnTransition only relocates them permanently
-	@ when VAR_BIRCH_LAB_STATE < 2. This game starts that var at 2, so re-enter
-	@ the room and the rival respawns on the stairs and seals the player in.
-	@ Relocate here instead, where it cannot be skipped.
-	setobjectxyperm LOCALID_RIVALS_HOUSE_2F_RIVAL, 8, 2
-	setobjectmovementtype LOCALID_RIVALS_HOUSE_2F_RIVAL, MOVEMENT_TYPE_FACE_UP
 	@ Was 1, which re-armed Littleroot's "go save BIRCH" exit trigger.
 	setvar VAR_LITTLEROOT_TOWN_STATE, 4
 	savebgm MUS_DUMMY
@@ -337,6 +334,10 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "Oh, no! I forgot!\p"
 	.string "I was supposed to go help Dad catch\n"
 	.string "some wild POKéMON!\p"
+	.string "Oh, and Dad is at the LAB, just down\n"
+	.string "the road. You should call in.\p"
+	.string "He will want to see that POKéMON of\n"
+	.string "yours. Where did you even get it?\p"
 	.string "{PLAYER}{KUN}, I'll catch you later!$"
 
 RivalsHouse_2F_Text_MayGettingReady:
@@ -361,6 +362,8 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Aw, darn, I forgot…\p"
 	.string "I'm supposed to go help my dad catch\n"
 	.string "some wild POKéMON.\p"
+	.string "He's down at the LAB, by the way.\n"
+	.string "Go show him what you're carrying.\p"
 	.string "Some other time, okay?$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
